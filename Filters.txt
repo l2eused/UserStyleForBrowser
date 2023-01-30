@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: AdsBlock-Banner (Noname)
+! Title: AdsBlock (Noname)
 ! Expires: 1 days (update frequency)
 ! Version: 01.30.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
