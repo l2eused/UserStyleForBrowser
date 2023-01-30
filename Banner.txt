@@ -1,0 +1,30 @@
+[Adblock Plus 2.0]
+! Title: AdsBlock-Banner (Noname)
+! Expires: 1 days (update frequency)
+! Version: 01.30.23.1
+! Homepage: https://github.com/Nonanne/AdsBlock
+! Developer: Noname
+
+!Banner
+*##[href*="huc33."]
+*##[href*="ufanance."]
+*##[href*="ssgame561."]
+*##[href*="8xbet-vip."]
+*##[href*="lucaclub88."]
+*##[href*="pg999slot."]
+*##[href*="freefire.bet"]
+*##[href*="xn--42c5aw3bxe1a.com"]
+*##[href*="xn--83co4f.com"]
+*##[href*="baccarat888."]
+*##[href*="slotheng."]
+*##[href*="seolrea.net"]
+*##[href*="line.me/ti/p/dnkSvv-cow"]
+*##[href*="huaynew.wixsite.com"]
+*##[href*="record.mytopaff.com"]
+*##[href*="usa567.cc"]
+*##[href*="pg133.com"]
+*##[href*="track.cdnyz.com"]
+*##[href*="hentai168.com"]
+*##[href*="pg.bet"]
+*##[href*="dg.bet"]
+*##[href*="nowbet168."]
