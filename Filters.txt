@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 1 days (update frequency)
-! Version: 01.30.23.1
+! Version: 02.02.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 
@@ -28,3 +28,10 @@
 *##[href*="pg.bet"]
 *##[href*="dg.bet"]
 *##[href*="nowbet168."]
+*##[href*="wbet.space"]
+*##[href*="sun-4488."]
+*##[href*="wb-kk."]
+*##[href*="ww-ot."]
+*##[href*="wn-st."]
+*##[href*="sm-555."]
+*##[href*="btr-7979."]
