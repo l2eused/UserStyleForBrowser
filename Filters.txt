@@ -1,4 +1,6 @@
 [Adblock Plus 2.0]
+[Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 1 days (update frequency)
 ! Version: 02.02.23.4
@@ -172,12 +174,16 @@
 manga168.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 manga168.com##.dessert-frame > center
 manga168.com##.kln
+! 2023-02-02 https://manga168.com
+manga168.com##.socialts
 
 ! weimanga.com
 ! 2022-11-30 https://weimanga.com
 weimanga.com##.slidtop
 ! 2023-02-02 https://weimanga.com
 weimanga.com###wbnn
+! 2023-02-02 https://weimanga.com
+weimanga.com##.socialts
 
 ! murim-manga.com
 ! 2022-11-30 https://murim-manga.com
