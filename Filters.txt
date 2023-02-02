@@ -28,7 +28,6 @@
 *##[href*="usa567.cc"]
 *##[href*="pg133.com"]
 *##[href*="track.cdnyz.com"]
-*##[href*="hentai168.com"]
 *##[href*="pg.bet"]
 *##[href*="dg.bet"]
 *##[href*="nowbet168."]
@@ -45,6 +44,7 @@
 ~xn--42c5aw3bxe1a.com##[href*="xn--42c5aw3bxe1a.com"]
 ~xn--83co4f.com##[href*="xn--83co4f.com"]
 ~ped-doujin.com##[href*="ped-doujin.com"]
+~hentai168.com##[href*="hentai168.com"]
 
 ! credits: https://github.com/Faelayis/adblock-thai-filters
 *##[href*="ufac4."]
@@ -168,7 +168,6 @@
 
 ! manga168.com
 ! 2022-11-30 https://manga168.com
-manga168.com##.swiper-wrapper
 manga168.com##.dessert-frame > center
 manga168.com##.kln
 
