@@ -38,6 +38,7 @@
 *##[href*="wn-st."]
 *##[href*="sm-555."]
 *##[href*="btr-7979."]
+*##[href*="London168.net"]
 
 ! self exclude
 ~av-subthai.net##[href*="av-subthai.net"]
@@ -174,6 +175,8 @@ manga168.com##.kln
 ! weimanga.com
 ! 2022-11-30 https://weimanga.com
 weimanga.com##.slidtop
+! 2023-02-02 https://weimanga.com
+weimanga.com###wbnn
 
 ! murim-manga.com
 ! 2022-11-30 https://murim-manga.com
