@@ -1,12 +1,17 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 1 days (update frequency)
-! Version: 02.02.23.3
+! Version: 02.02.23.4
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 
-! <<<<< ----- Banner ----- >>>>>
 
+
+! -------------------------- !
+! ----- General Banner ----- !
+! -------------------------- !
+
+! generic cosmetic
 *##[href*="huc33."]
 *##[href*="ufanance."]
 *##[href*="ssgame561."]
@@ -14,8 +19,6 @@
 *##[href*="lucaclub88."]
 *##[href*="pg999slot."]
 *##[href*="freefire.bet"]
-*##[href*="xn--42c5aw3bxe1a.com"]
-*##[href*="xn--83co4f.com"]
 *##[href*="baccarat888."]
 *##[href*="slotheng."]
 *##[href*="seolrea.net"]
@@ -37,9 +40,357 @@
 *##[href*="sm-555."]
 *##[href*="btr-7979."]
 
-! <<<<< ----- Custom Banner ----- >>>>>
+! self exclude
+~av-subthai.net##[href*="av-subthai.net"]
+~xn--42c5aw3bxe1a.com##[href*="xn--42c5aw3bxe1a.com"]
+~xn--83co4f.com##[href*="xn--83co4f.com"]
+~ped-doujin.com##[href*="ped-doujin.com"]
+
+! credits: https://github.com/Faelayis/adblock-thai-filters
+*##[href*="ufac4."]
+*##[href*="huc99."]
+*##[href*="ufa8x."]
+*##[href*="sa365."]
+*##[href*="w77th."]
+*##[href*="ts911n."]
+*##[href*="ufa-c4."]
+*##[href*="168ava."]
+*##[href*="ufabet."]
+*##[href*="mb2bet."]
+*##[href*="aka555."]
+*##[href*="037uhd."]
+*##[href*="ufa800."]
+*##[href*="agobet."]
+*##[href*="ufa350."]
+*##[href*="ufadna."]
+*##[href*="69slot."]
+*##[href*="ufa191."]
+*##[href*="sagame."]
+*##[href*="okdbet."]
+*##[href*="tode207."]
+*##[href*="zeed678."]
+*##[href*="alpha88."]
+*##[href*="juad888."]
+*##[href*="77lotto."]
+*##[href*="sexy365."]
+*##[href*="icasino."]
+*##[href*="ufazeed."]
+*##[href*="one4bet."]
+*##[href*="wstar99."]
+*##[href*="ufa2you."]
+*##[href*="lotto77."]
+*##[href*="slot246."]
+*##[href*="wmbet444."]
+*##[href*="huaylike."]
+*##[href*="texas789."]
+*##[href*="lihi1.cc"]
+*##[href*="slot1234."]
+*##[href*="ptgame88."]
+*##[href*="slotxoth."]
+*##[href*="lotto432."]
+*##[href*="hydra888."]
+*##[href*="vip168sa."]
+*##[href*="188th.co"]
+*##[href*="1688slot."]
+*##[href*="slot0077."]
+*##[href*="gclub456."]
+*##[href*="slot1911."]
+*##[href*="luca99th."]
+*##[href*="lsm99you."]
+*##[href*="dafuq888."]
+*##[href*="asia99th."]
+*##[href*="ufakicks."]
+*##[href*="slotgame."]
+*##[href*="panama888."]
+*##[href*="london168."]
+*##[href*="scr99thai."]
+*##[href*="Live222th."]
+*##[href*="lsm99good."]
+*##[href*="play681th."]
+*##[href*="brazil999."]
+*##[href*="ssgame666."]
+*##[href*="luca-asia."]
+*##[href*="lucaasia."]
+*##[href*="kingdom66."]
+*##[href*="168ambbar."]
+*##[href*="sbfplay99."]
+*##[href*="ssgame350."]
+*##[href*="allmaxbet."]
+*##[href*="databet88."]
+*##[href*="ruaykingx."]
+*##[href*="lucabet168."]
+*##[href*="coin365thb."]
+*##[href*="ufa365.net"]
+*##[href*="chokdee777."]
+*##[href*="aoxx69.net"]
+*##[href*="biogame365."]
+*##[href*="starvip789"]
+*##[href*="hotgraph88."]
+*##[href*="gclub11111."]
+*##[href*="mahagame88."]
+*##[href*="sexygame66."]
+*##[href*="newyork888."]
+*##[href*="imispecial."]
+*##[href*="allslot878."]
+*##[href*="ufax891.net"]
+*##[href*="ufaeasy.bet"]
+*##[href*="lockdown168."]
+*##[href*="pg-gameslot."]
+*##[href*="sexygame1688."]
+*##[href*="databet.club"]
+*##[href*="ufayabo.info"]
+*##[href*="168superslot"]
+*##[href*="th.betway330"]
+*##[href*="baccarat99th."]
+*##[href*="1688sexygame."]
+*##[href*="supermariobet."]
+*##[href*="lottovip.life"]
+*##[href*="giantslot.net"]
+*##[href*="joker-autogame."]
+*##[href*="baccaratpremier."]
+*##[href*="betkub88."]
+*##[href*="slot12."]
+*##[href*="jokerslot789."]
+*##[href*="slotxo369."]
+*##[href*="playlive88."]
+*##[href*="bslotauto."]
+
+
+
+! ------------------------- !
+! ----- Custom Filters ---- !
+! ------------------------- !
 
 ! newtoki / manatoki
 *##[href*="/bbs/linkbn.php"]
+||manatoki*/tokinbtoki/*.gif^
+||newtoki*/tokinbtoki/*.gif^
 
-!#include https://github.com/yous/YousList/raw/master/youslist.txt
+! manga168.com
+! 2022-11-30 https://manga168.com
+manga168.com##.swiper-wrapper
+manga168.com##.dessert-frame > center
+manga168.com##.kln
+
+! weimanga.com
+! 2022-11-30 https://weimanga.com
+weimanga.com##.slidtop
+
+! murim-manga.com
+! 2022-11-30 https://murim-manga.com
+murim-manga.com##.dessert-frame
+murim-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
+murim-manga.com###ads_fox_bottom
+
+! inu-manga.com
+! 2022-11-30 https://www.inu-manga.com
+www.inu-manga.com##.header-ads-section
+
+! mangauptocats.com
+! 2022-11-30 https://mangauptocats.com
+mangauptocats.com##.widget_custom_html.heading-style-1.no-icon.default.col-md-12.col-12.widget.widget_text
+mangauptocats.com##.floating_content_1
+mangauptocats.com###upcat_ads2
+mangauptocats.com###upcat_ads3
+
+! manga-uptocats.com
+! 2023-01-16 https://manga-uptocats.com
+manga-uptocats.com##.floating_content
+manga-uptocats.com###upcat_ads1
+manga-uptocats.com##.wp-manga.c-top-sidebar.c-sidebar
+
+! makimaaaaa.com
+! 2023-01-17 https://makimaaaaa.com
+makimaaaaa.com###wbnn
+makimaaaaa.com##.kln.mlb.blox
+makimaaaaa.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
+
+! สดใสเมะ.com / xn--l3c0azab5a2gta.com
+! 2022-11-30 https://www.xn--l3c0azab5a2gta.com
+www.xn--l3c0azab5a2gta.com##.ads
+
+! catzaa.com
+! 2022-11-30 https://catzaa.com
+catzaa.com###custom_html-40
+catzaa.com###advanced_floating_content_14918
+catzaa.com###advanced_floating_content_14922
+catzaa.com##.wp-manga.c-top-sidebar.c-sidebar
+! 2022-12-01 https://catzaa.com
+catzaa.com###bottom_center_ads_1
+
+! nabee-manga.com
+! 2022-11-30 https://www.nabee-manga.com
+www.nabee-manga.com##.header-ads-section
+
+! mafia-manga.com
+! 2022-11-30 https://mafia-manga.com
+mafia-manga.com##.dessert-frame
+! 2022-12-18 https://mafia-manga.com
+mafia-manga.com###wbnn
+
+! ped-manga.com
+! 2022-11-30 https://ped-manga.com
+ped-manga.com##.dessert-frame
+ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
+! 2022-12-18 https://ped-manga.com
+ped-manga.com###wbnn
+
+! manhuakey.com
+! 2022-11-30 https://www.manhuakey.com
+www.manhuakey.com##.mb-2.mt-2.text-center.col-md-12.ads
+www.manhuakey.com##.ads-float
+
+! manga-sugoi.com
+! 2022-12-06 https://manga-sugoi.com
+manga-sugoi.com##.kln.mlb.blox
+! 2022-12-18 https://manga-sugoi.com
+manga-sugoi.com##.ads
+
+! god-manga.com
+! 2022-12-18 https://god-manga.com
+god-manga.com##.dessert-frame
+god-manga.com##.ads
+god-manga.com##p:nth-of-type(5)
+
+! god-doujin.com
+! 2022-12-22 https://god-doujin.com
+god-doujin.com##.kln.mlb.blox
+god-doujin.com##.ads-info
+god-doujin.com##.text-center.gd-ban
+
+! godhman.net
+! 2023-01-10 https://www.godhman.net
+www.godhman.net##.header-ads-section
+
+! toonhunter.com
+! 2022-12-22 https://toonhunter.com
+toonhunter.com##.ads-info
+toonhunter.com##.text-center.th-ban
+
+! mangadeemak.com
+! 2022-12-21 https://mangadeemak.com
+mangadeemak.com##.widget_custom_html.heading-style-1.no-icon.default.col-md-12.col-12.widget.widget_text
+mangadeemak.com##.floating_content
+mangadeemak.com##.wp-manga.c-top-sidebar.c-sidebar
+
+! niceoppai.net
+! 2023-01-08 https://www.niceoppai.net
+www.niceoppai.net##.mng_rdr.wpm_pag > center
+www.niceoppai.net###sct_top_banner > .textwidget
+www.niceoppai.net###sct_footer_banner
+! 2023-01-18 https://www.niceoppai.net
+www.niceoppai.net##.widget_text.top_page
+www.niceoppai.net###text-90
+
+! mangaisekaithai.com
+! 2023-01-08 https://www.mangaisekaithai.com
+www.mangaisekaithai.com##.mb-2.mt-2.text-center.col-md-12.ads
+
+! thaimanga.net
+! 2023-01-21 https://www.thaimanga.net
+www.thaimanga.net##.ads
+
+! toomtam-manga.com
+! 2023-01-21 https://toomtam-manga.com
+toomtam-manga.com##.dessert-frame
+toomtam-manga.com###wbnn
+
+! popsmanga.com
+! 2023-01-17 https://popsmanga.com
+popsmanga.com###wbnn
+popsmanga.com##.dessert-frame
+
+! fcmanga.com
+! 2023-01-17 https://fcmanga.com
+fcmanga.com###wbnn
+fcmanga.com##.c-container.container > .c-row.row > .widget_block.no-icon.default.col-md-12.col-12.widget
+
+! animehayai.net
+! 2023-01-25 https://animehayai.net
+animehayai.net##.col-12
+animehayai.net##.col-lg-3 > div.panel-primary.panel:nth-of-type(2)
+animehayai.net##.col-lg-3 > div.panel-primary.panel:nth-of-type(1)
+animehayai.net###bottom_center_ads
+animehayai.net##.error.entered.loadads.img-ads
+animehayai.net##.panel-body > .bottom-2x.text-center
+
+! happymanga.net
+! 2023-01-27 https://happymanga.net
+happymanga.net##.wp-manga.c-top-sidebar.c-sidebar
+happymanga.net###bottom_center_ads
+
+! miku-doujin.com
+! 2022-11-30 https://miku-doujin.com
+miku-doujin.com##.mb-3.text-center.container
+miku-doujin.com##.card-body > .mb-3.text-center
+
+! ntr-manga.com
+! 2022-11-30 https://www.ntr-manga.com
+www.ntr-manga.com##.header-ads-section
+
+! nhentai.net
+! 2022-11-30 https://nhentai.net
+nhentai.net##section.advt.advertisement.container:nth-of-type(1)
+nhentai.net##section.advt.advertisement.container:nth-of-type(2)
+nhentai.net##section.advt.advertisement.container:nth-of-type(3)
+nhentai.net##[href*="a.adtng.com"]
+
+! hentaithai.com
+! 2022-12-11 https://hentaithai.com
+hentaithai.com##div.row:nth-of-type(2)
+||hentaithai.com/banner/topic_pre.html$subdocument
+! 2023-01-08 https://hentaithai.com
+||hentaithai.com/banner/main_pre.html$subdocument
+
+! meerkat-doujin.net
+! 2022-12-15 https://meerkat-doujin.net
+meerkat-doujin.net##.floating_content
+meerkat-doujin.net##.wp-manga.c-top-sidebar.c-sidebar
+
+
+
+! ------------------------- !
+! ----- Other Filters ----- !
+! ------------------------- !
+
+! manga168 / weimanga
+!!adguard base filters issue (blocked some image cover)
+@@/*.gif$domain=weimanga.com|manga168.com,image
+
+
+
+! ----------------------- !
+! ----- Non Filters ----- !
+! ----------------------- !
+
+! others cool filters that I used
+!!adblock base on korea sites
+https://github.com/yous/YousList/raw/master/youslist.txt
+!!url shortener
+https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt
+!!AdGuard Tracking Protection filter
+https://filters.adtidy.org/extension/ublock/filters/3.txt
+!!thai filters
+https://raw.githubusercontent.com/Faelayis/AdBlock-Thai-Filters/master/filters/ads.txt
+!!thai banner
+https://raw.githubusercontent.com/Faelayis/AdBlock-Thai-Filters/master/filters/banner.txt
+!!ClearURLs
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
+!!block adblock alerts
+https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt
+!!thai ads filter
+https://adblock-thai.github.io/thai-ads-filter/subscription.txt
+!!ThaiParanoid
+https://raw.githubusercontent.com/kowith337/ThaiParanoidBlock/master/ThaiParanoid.txt
+!!twitch video swap new
+https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/bc355dda0ae98e142577e8521ad1857ccdb3b724/video-swap-new/video-swap-new-ublock-origin.js
+
+
+
+! ----------------------------- !
+! ----- AdsBlock (Noname) ----- !
+! ----------------------------- !
+
+
+
+
