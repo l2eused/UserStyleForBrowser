@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 1 days (update frequency)
-! Version: 02.02.23.1
+! Version: 02.02.23.2
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 
