@@ -42,4 +42,4 @@
 ! newtoki / manatoki
 *##[href*="/bbs/linkbn.php"]
 
-!#import https://github.com/yous/YousList/raw/master/youslist.txt
+!#include https://github.com/yous/YousList/raw/master/youslist.txt
