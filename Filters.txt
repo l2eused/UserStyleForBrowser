@@ -5,7 +5,8 @@
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 
-! Banner
+! <<<<< ----- Banner ----- >>>>>
+
 *##[href*="huc33."]
 *##[href*="ufanance."]
 *##[href*="ssgame561."]
@@ -36,5 +37,9 @@
 *##[href*="sm-555."]
 *##[href*="btr-7979."]
 
-! Custom Banner
+! <<<<< ----- Custom Banner ----- >>>>>
+
+! newtoki / manatoki
 *##[href*="/bbs/linkbn.php"]
+
+!#import https://github.com/yous/YousList/raw/master/youslist.txt
