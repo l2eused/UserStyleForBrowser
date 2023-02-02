@@ -367,26 +367,21 @@ meerkat-doujin.net##.wp-manga.c-top-sidebar.c-sidebar
 ! ----------------------- !
 
 ! others cool filters that I used
-!!adblock base on korea sites
+
 https://github.com/yous/YousList/raw/master/youslist.txt
-!!url shortener
 https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt
-!!AdGuard Tracking Protection filter
 https://filters.adtidy.org/extension/ublock/filters/3.txt
-!!thai filters
-https://raw.githubusercontent.com/Faelayis/AdBlock-Thai-Filters/master/filters/ads.txt
-!!thai banner
+https://raw.gitubusercontent.com/Faelayis/AdBlock-Thai-Filters/master/filters/ads.txt
 https://raw.githubusercontent.com/Faelayis/AdBlock-Thai-Filters/master/filters/banner.txt
-!!ClearURLs
 https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
-!!block adblock alerts
 https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt
-!!thai ads filter
 https://adblock-thai.github.io/thai-ads-filter/subscription.txt
-!!ThaiParanoid
 https://raw.githubusercontent.com/kowith337/ThaiParanoidBlock/master/ThaiParanoid.txt
-!!twitch video swap new
 https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/bc355dda0ae98e142577e8521ad1857ccdb3b724/video-swap-new/video-swap-new-ublock-origin.js
+https://filters.adavoid.org/ultimate-ad-filter.txt
+https://filters.adavoid.org/ultimate-privacy-filter.txt
+https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt
+https://filters.adavoid.org/ultimate-security-filter.txt
 
 
 
