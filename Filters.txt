@@ -1,9 +1,7 @@
 [Adblock Plus 2.0]
-[Adblock Plus 2.0]
-[Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 1 days (update frequency)
-! Version: 02.02.23.4
+! Version: 02.03.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 
@@ -25,10 +23,10 @@
 *##[href*="slotheng."]
 *##[href*="seolrea.net"]
 *##[href*="line.me/ti/p/dnkSvv-cow"]
-*##[href*="huaynew.wixsite.com"]
+*##[href*="huaynew.wixsite."]
 *##[href*="record.mytopaff.com"]
 *##[href*="usa567.cc"]
-*##[href*="pg133.com"]
+*##[href*="pg133."]
 *##[href*="track.cdnyz.com"]
 *##[href*="pg.bet"]
 *##[href*="dg.bet"]
@@ -40,9 +38,10 @@
 *##[href*="wn-st."]
 *##[href*="sm-555."]
 *##[href*="btr-7979."]
-*##[href*="London168.net"]
+*##[href*="London168."]
+*##[href*="ufa747."]
 
-! self exclude
+! self exclude (useful site)
 ~av-subthai.net##[href*="av-subthai.net"]
 ~xn--42c5aw3bxe1a.com##[href*="xn--42c5aw3bxe1a.com"]
 ~xn--83co4f.com##[href*="xn--83co4f.com"]
@@ -93,7 +92,7 @@
 *##[href*="lotto432."]
 *##[href*="hydra888."]
 *##[href*="vip168sa."]
-*##[href*="188th.co"]
+*##[href*="188th."]
 *##[href*="1688slot."]
 *##[href*="slot0077."]
 *##[href*="gclub456."]
@@ -125,7 +124,7 @@
 *##[href*="coin365thb."]
 *##[href*="ufa365.net"]
 *##[href*="chokdee777."]
-*##[href*="aoxx69.net"]
+*##[href*="aoxx69."]
 *##[href*="biogame365."]
 *##[href*="starvip789"]
 *##[href*="hotgraph88."]
@@ -142,13 +141,13 @@
 *##[href*="sexygame1688."]
 *##[href*="databet.club"]
 *##[href*="ufayabo.info"]
-*##[href*="168superslot"]
-*##[href*="th.betway330"]
+*##[href*="168superslot."]
+*##[href*="betway330."]
 *##[href*="baccarat99th."]
 *##[href*="1688sexygame."]
 *##[href*="supermariobet."]
 *##[href*="lottovip.life"]
-*##[href*="giantslot.net"]
+*##[href*="giantslot."]
 *##[href*="joker-autogame."]
 *##[href*="baccaratpremier."]
 *##[href*="betkub88."]
@@ -361,6 +360,16 @@ meerkat-doujin.net##.wp-manga.c-top-sidebar.c-sidebar
 ! ------------------------- !
 ! ----- Other Filters ----- !
 ! ------------------------- !
+
+! social share button
+~facebook.*##[href*="facebook.com/sharer"]
+~twitter.*##[href*="twitter.com/intent/tweet"]
+~whatsapp.*##[href*="whatsapp://send"]
+~whatsapp.*##[href*="whatsapp.com/send"]
+~pinterest.*##[href*="pinterest.com/pin/create/button"]
+~telegram.*##[href*="telegram.me/share"]
+~skype.*##[href*="skype.com/share"]
+~linkedin.*##[href*="linkedin.com/sharing"]
 
 ! manga168 / weimanga
 !!adguard base filters issue (blocked some image cover)
