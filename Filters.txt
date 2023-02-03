@@ -296,6 +296,7 @@ www.niceoppai.net###sct_footer_banner
 ! 2023-01-18 https://www.niceoppai.net
 www.niceoppai.net##.widget_text.top_page
 www.niceoppai.net###text-90
+www.niceoppai.net###text-32
 
 ! mangaisekaithai.com
 ! 2023-01-08 https://www.mangaisekaithai.com
