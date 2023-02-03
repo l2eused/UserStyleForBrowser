@@ -40,6 +40,10 @@
 *##[href*="btr-7979."]
 *##[href*="London168."]
 *##[href*="ufa747."]
+*##[href*="666slotclub."]
+*##[href*="lion123.asia"]
+*##[href*="slotking777."]
+*##[href*="bit.ly/3oqlCHK"]
 
 ! self exclude (useful site)
 ~av-subthai.net##[href*="av-subthai.net"]
@@ -126,7 +130,7 @@
 *##[href*="chokdee777."]
 *##[href*="aoxx69."]
 *##[href*="biogame365."]
-*##[href*="starvip789"]
+*##[href*="starvip789."]
 *##[href*="hotgraph88."]
 *##[href*="gclub11111."]
 *##[href*="mahagame88."]
