@@ -403,7 +403,3 @@ https://filters.adavoid.org/ultimate-security-filter.txt
 ! ----------------------------- !
 ! ----- AdsBlock (Noname) ----- !
 ! ----------------------------- !
-
-
-
-
