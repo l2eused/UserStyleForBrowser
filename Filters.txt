@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
-! Expires: 1 days (update frequency)
+! Expires: 12 hours
 ! Version: 02.03.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
@@ -43,14 +43,17 @@
 *##[href*="666slotclub."]
 *##[href*="lion123.asia"]
 *##[href*="slotking777."]
+*##[href*="bkkgaming.."]
+*##[href*="pgslot99."]
 *##[href*="bit.ly/3oqlCHK"]
 
 ! self exclude (useful site)
-~av-subthai.net##[href*="av-subthai.net"]
-~xn--42c5aw3bxe1a.com##[href*="xn--42c5aw3bxe1a.com"]
-~xn--83co4f.com##[href*="xn--83co4f.com"]
-~ped-doujin.com##[href*="ped-doujin.com"]
-~hentai168.com##[href*="hentai168.com"]
+~av-subthai.*##[href*="av-subthai."]
+~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."]
+~xn--83co4f.*##[href*="xn--83co4f."]
+~ped-doujin.*##[href*="ped-doujin."]
+~hentai168.*##[href*="hentai168."]
+~moviethai4u.*##[href*="moviethai4u."]
 
 ! credits: https://github.com/Faelayis/adblock-thai-filters
 *##[href*="ufac4."]
