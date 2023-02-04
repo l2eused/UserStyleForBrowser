@@ -1,9 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 12 hours
-! Version: 02.05.23.1
+! Version: 02.05.23.2
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
+! Detail: work in progress....
 
 
 
@@ -18,7 +19,7 @@
 ##[href^="https:///1001"]
 ##[href^="http:///1001"]
 ##[href^="www./1001"]
-
+!!filters
 ##[href^="https://www.ufa"]
 ##[href^="http://www.ufa"]
 ##[href^="https://ufa"]
@@ -58,7 +59,7 @@
 ! generic cosmetic (strict domain)
 !!template (replace /1002 with domain name)
 ##[href*="/1002"]
-
+!!filters
 ##[href*="huc33."]
 ##[href*="ufanance"]
 ##[href*="ssgame561"]
@@ -117,6 +118,9 @@
 ##[href*="cutt.ly/N2v6gNK"]
 
 ! self exclude (maybe useful site)
+!!template (replace /1003 with domain name)
+~/1003.*##[href*="/1003."]
+!!filters
 ~av-subthai.*##[href*="av-subthai."]
 ~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."]
 ~xn--83co4f.*##[href*="xn--83co4f."]
@@ -126,7 +130,8 @@
 ~aoxx69.*##[href*="aoxx69."]
 ~pali.land##[href*="pali.land"]
 
-! credits: https://github.com/Faelayis/adblock-thai-filters
+! import filters (and edit) by others
+!!credits: https://github.com/Faelayis/adblock-thai-filters
 ##[href*="ufac4"]
 ##[href*="huc99."]
 ##[href*="ufa8x"]
@@ -455,6 +460,7 @@ makimaaaaa.com##.swiper-container-android.swiper-container-horizontal.swiper-con
 ! 2022-11-30 https://ped-manga.com
 ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 
+! ending if mobile
 !#endif
 
 
@@ -483,7 +489,7 @@ ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-cont
 ! ----- Non Filters ----- !
 ! ----------------------- !
 
-! others cool filters that I used
+! others cool filters that I recommend
 
 https://github.com/yous/YousList/raw/master/youslist.txt
 https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt
@@ -505,3 +511,5 @@ https://filters.adavoid.org/ultimate-security-filter.txt
 ! ----------------------------- !
 ! ----- AdsBlock (Noname) ----- !
 ! ----------------------------- !
+
+! stay safe.
