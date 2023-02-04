@@ -44,6 +44,16 @@
 ##[href^="https://slot"]
 ##[href^="http://slot"]
 ##[href^="www.slot"]
+##[href^="https://www.casino"]
+##[href^="http://www.casino"]
+##[href^="https://casino"]
+##[href^="http://casino"]
+##[href^="www.casino"]
+##[href^="https://www.hotgraph"]
+##[href^="http://www.hotgraph"]
+##[href^="https://hotgraph"]
+##[href^="http://hotgraph"]
+##[href^="www.hotgraph"]
 
 ! generic cosmetic (strict domain)
 !!template (replace /1002 with domain name)
@@ -99,14 +109,22 @@
 ##[href*="hotgraph883"]
 ##[href*="kingkong-89"]
 ##[href*="hilobet"]
+##[href*="mahagame882"]
+##[href*="newvegas168"]
+##[href*="999bet"]
+##[href*="okcasino"]
+##[href*="betflix335"]
+##[href*="cutt.ly/N2v6gNK"]
 
-! self exclude (useful site)
+! self exclude (maybe useful site)
 ~av-subthai.*##[href*="av-subthai."]
 ~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."]
 ~xn--83co4f.*##[href*="xn--83co4f."]
 ~ped-doujin.*##[href*="ped-doujin."]
 ~hentai168.*##[href*="hentai168."]
 ~moviethai4u.*##[href*="moviethai4u."]
+~aoxx69.*##[href*="aoxx69."]
+~pali.land##[href*="pali.land"]
 
 ! credits: https://github.com/Faelayis/adblock-thai-filters
 ##[href*="ufac4"]
@@ -184,7 +202,6 @@
 ##[href*="coin365thb"]
 ##[href*="ufa365.net"]
 ##[href*="chokdee777"]
-##[href*="aoxx69."]
 ##[href*="biogame365"]
 ##[href*="starvip789"]
 ##[href*="hotgraph88"]
