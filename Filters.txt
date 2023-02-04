@@ -224,9 +224,7 @@
 ! ------------------------- !
 
 ! newtoki / manatoki
-##[href *= "/bbs/linkbn.php"]
-||manatoki*/tokinbtoki/*.gif^
-||newtoki*/tokinbtoki/*.gif^
+##[href *= "/bbs/linkbn.php"] || manatoki*/tokinbtoki/*.gif^ || newtoki*/tokinbtoki/*.gif^
 
 ! manga168.com
 ! 2022-11-30 https: //manga168.com
@@ -456,7 +454,7 @@ ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-cont
 
 ! manga168 / weimanga
 !!adguard base filters issue (blocked some image cover)
-@@/*.gif$domain = weimanga.com|manga168.com,image
+@@/*.gif$domain=weimanga.com|manga168.com,image
 
 
 
