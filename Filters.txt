@@ -224,7 +224,9 @@
 ! ------------------------- !
 
 ! newtoki / manatoki
-##[href *= "/bbs/linkbn.php"] || manatoki*/tokinbtoki/*.gif^ || newtoki*/tokinbtoki/*.gif^
+##[href *= "/bbs/linkbn.php"]
+||manatoki*/tokinbtoki/*.gif^
+||newtoki*/tokinbtoki/*.gif^
 
 ! manga168.com
 ! 2022-11-30 https: //manga168.com
@@ -454,7 +456,7 @@ ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-cont
 
 ! manga168 / weimanga
 !!adguard base filters issue (blocked some image cover)
-@@/*.gif$domain=weimanga.com|manga168.com,image
+@@/*.gif$domain = weimanga.com|manga168.com,image
 
 
 
@@ -469,7 +471,7 @@ https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt
 https://filters.adtidy.org/extension/ublock/filters/3.txt
 https://raw.gitubusercontent.com/Faelayis/AdBlock-Thai-Filters/master/filters/ads.txt
 https://raw.githubusercontent.com/Faelayis/AdBlock-Thai-Filters/master/filters/banner.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
+https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for %20uBo/clear_urls_uboified.txt
 https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt
 https://adblock-thai.github.io/thai-ads-filter/subscription.txt
 https://raw.githubusercontent.com/kowith337/ThaiParanoidBlock/master/ThaiParanoid.txt
