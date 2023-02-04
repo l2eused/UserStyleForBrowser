@@ -97,6 +97,8 @@
 ##[href *= "ufazeed1"]
 ##[href *= "ufac41"]
 ##[href *= "hotgraph883"]
+##[href *= "kingkong-89"]
+##[href *= "hilobet"]
 
 ! self exclude (useful site)
 ~av-subthai.*##[href *= "av-subthai."]
