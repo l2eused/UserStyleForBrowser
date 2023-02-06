@@ -129,6 +129,7 @@
 ~moviethai4u.*##[href*="moviethai4u."]
 ~aoxx69.*##[href*="aoxx69."]
 ~pali.land##[href*="pali.land"]
+~cartoonth12.com##[href*="cartoonth12.com"]
 
 ! import filters (and edit) by others
 !!credits: https://github.com/Faelayis/adblock-thai-filters
@@ -352,6 +353,10 @@ www.godhman.net##.header-ads-section
 ! 2022-12-22 https://toonhunter.com
 toonhunter.com##.ads-info
 toonhunter.com##.text-center.th-ban
+
+! kumomanga.com
+! 2023-02-06 https://kumomanga.com
+kumomanga.com##.wbnn-close
 
 ! mangadeemak.com
 ! 2022-12-21 https://mangadeemak.com
