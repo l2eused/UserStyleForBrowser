@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.07.23.1
+! Version: 02.08.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -119,17 +119,17 @@
 
 ! self exclude (maybe useful site)
 !!template (replace /1003 with domain name)
-~/1003.*##[href*="/1003."]
+~/1003.*##[href*="/1003."] > img
 !!filters
-~av-subthai.*##[href*="av-subthai."]
-~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."]
-~xn--83co4f.*##[href*="xn--83co4f."]
-~ped-doujin.*##[href*="ped-doujin."]
-~hentai168.*##[href*="hentai168."]
-~moviethai4u.*##[href*="moviethai4u."]
-~aoxx69.*##[href*="aoxx69."]
-~pali.land##[href*="pali.land"]
-~cartoonth12.*##[href*="cartoonth12."]
+~av-subthai.*##[href*="av-subthai."] > img
+~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."] > img
+~xn--83co4f.*##[href*="xn--83co4f."] > img
+~ped-doujin.*##[href*="ped-doujin."] > img
+~hentai168.*##[href*="hentai168."] > img
+~moviethai4u.*##[href*="moviethai4u."] > img
+~aoxx69.*##[href*="aoxx69."] > img
+~pali.land##[href*="pali.land"] > img
+~cartoonth12.*##[href*="cartoonth12."] > img
 
 ! import filters (and edit) by others
 !!credits: https://github.com/Faelayis/adblock-thai-filters
