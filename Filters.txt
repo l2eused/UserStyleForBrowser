@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.08.23.1
+! Version: 02.16.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -19,7 +19,7 @@
 ##[href^="https:///1001"]
 ##[href^="http:///1001"]
 ##[href^="www./1001"]
-!!filters
+!!filters (start with)
 ##[href^="https://www.ufa"]
 ##[href^="http://www.ufa"]
 ##[href^="https://ufa"]
@@ -35,6 +35,11 @@
 ##[href^="https://ssgame"]
 ##[href^="http://ssgame"]
 ##[href^="www.ssgame"]
+##[href^="https://www.sagame"]
+##[href^="http://www.sagame"]
+##[href^="https://sagame"]
+##[href^="http://sagame"]
+##[href^="www.sagame"]
 ##[href^="https://www.sexygame"]
 ##[href^="http://www.sexygame"]
 ##[href^="https://sexygame"]
@@ -55,6 +60,12 @@
 ##[href^="https://hotgraph"]
 ##[href^="http://hotgraph"]
 ##[href^="www.hotgraph"]
+!!template (replace /1005 with ending name)
+##[href$="/1005"]
+##[hrrf$="/1005/"]
+!!filters (end with)
+##[href$=".bet"]
+##[hrrf$=".bet/"]
 
 ! generic cosmetic (strict domain)
 !!template (replace /1002 with domain name)
@@ -326,6 +337,10 @@ ped-manga.com###wbnn
 ! 2022-11-30 https://www.manhuakey.com
 www.manhuakey.com##.mb-2.mt-2.text-center.col-md-12.ads
 www.manhuakey.com##.ads-float
+
+! manhwathailand.com
+! 2023-02-15 https://manhwathailand.com
+manhwathailand.com###wbnn
 
 ! manga-sugoi.com
 ! 2022-12-06 https://manga-sugoi.com
