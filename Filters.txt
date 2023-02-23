@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.16.23.1
+! Version: 02.23.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -60,6 +60,21 @@
 ##[href^="https://hotgraph"]
 ##[href^="http://hotgraph"]
 ##[href^="www.hotgraph"]
+##[href^="https://www.baccara"]
+##[href^="http://www.baccara"]
+##[href^="https://baccara"]
+##[href^="http://baccara"]
+##[href^="www.baccara"]
+##[href^="https://www.huay"]
+##[href^="http://www.huay"]
+##[href^="https://huay"]
+##[href^="http://huay"]
+##[href^="www.huay"]
+##[href^="https://www.nowbet"]
+##[href^="http://www.nowbet"]
+##[href^="https://nowbet"]
+##[href^="http://nowbet"]
+##[href^="www.nowbet"]
 !!template (replace /1005 with ending name)
 ##[href$="/1005"]
 ##[hrrf$="/1005/"]
@@ -514,7 +529,6 @@ ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-cont
 ! ----------------------- !
 
 ! others cool filters that I recommend
-
 https://github.com/yous/YousList/raw/master/youslist.txt
 https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt
 https://filters.adtidy.org/extension/ublock/filters/3.txt
