@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.24.23.2
+! Version: 02.25.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -521,6 +521,14 @@ ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-cont
 ~telegram.*##[href*="telegram.me/share"]
 ~skype.*##[href*="skype.com/share"]
 ~linkedin.*##[href*="linkedin.com/sharing"]
+
+! replace image hyperlink to text
+!!template (replace /1006 with domain name)
+~/1006##[href*="/1006"] > img
+~/1006##[href*="/1006"]::after:style(content: "~/1006~" ;color: #8b60faff ;font-size: 20px)
+!!discord.gg
+~discord.gg##[href*="discord.gg"] > img
+~discord.gg##[href*="discord.gg"]::after:style(content: "~discord.gg~" ;color: #8b60faff ;font-size: 20px)
 
 ! manga168 / weimanga
 !!adguard base filters issue (blocked some image cover)
