@@ -146,6 +146,7 @@
 ##[href*="cutt.ly/N2v6gNK"]
 ##[href*="cryptobet"]
 
+
 ! self exclude (maybe useful site)
 !!template (replace /1003 with domain name)
 ~/1003.*##[href*="/1003."] > img
