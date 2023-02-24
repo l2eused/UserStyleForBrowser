@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.23.23.1
+! Version: 02.24.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -81,6 +81,8 @@
 !!filters (end with)
 ##[href$=".bet"]
 ##[hrrf$=".bet/"]
+##[href$=".game"]
+##[hrrf$=".game/"]
 
 ! generic cosmetic (strict domain)
 !!template (replace /1002 with domain name)
@@ -142,6 +144,7 @@
 ##[href*="okcasino"]
 ##[href*="betflix335"]
 ##[href*="cutt.ly/N2v6gNK"]
+##[href*="cryptobet"]
 
 ! self exclude (maybe useful site)
 !!template (replace /1003 with domain name)
