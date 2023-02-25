@@ -316,7 +316,7 @@ makimaaaaa.com##.kln.mlb.blox
 ! 2022-11-30 https://www.xn--l3c0azab5a2gta.com
 www.xn--l3c0azab5a2gta.com##.ads
 ! 2023-02-25 https://www.xn--l3c0azab5a2gta.com
-xn--l3c0azab5a2gta.com##.menu > * > [href] > span:style(color: ghostwhite)
+xn--l3c0azab5a2gta.com##.menu > * > [href] > span:style(color: lavender)
 
 ! catzaa.com
 ! 2022-11-30 https://catzaa.com
