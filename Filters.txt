@@ -292,7 +292,7 @@ murim-manga.com###ads_fox_bottom
 ! 2022-11-30 https://www.inu-manga.com
 www.inu-manga.com##.header-ads-section
 ! 2023-02-25 https://www.inu-manga.com
-inu-manga.com##.menu > * > [href] > span:style(color: ghostwhite)
+inu-manga.com##.menu > * > [href] > span:style(color: lavender)
 
 ! mangauptocats.com
 ! 2022-11-30 https://mangauptocats.com
