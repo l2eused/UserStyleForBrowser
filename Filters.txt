@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.25.23.3
+! Version: 02.25.23.4
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -13,13 +13,7 @@
 ! -------------------------- !
 
 ! generic cosmetic
-!!template (replace /1001 with domain name)
-##[href^="https://www./1001"]
-##[href^="http://www./1001"]
-##[href^="https:///1001"]
-##[href^="http:///1001"]
-##[href^="www./1001"]
-!!filters (start with)
+!!filters (start with) (/1001)
 ##[href^="https://www.ufa"]
 ##[href^="http://www.ufa"]
 ##[href^="https://ufa"]
@@ -75,19 +69,14 @@
 ##[href^="https://nowbet"]
 ##[href^="http://nowbet"]
 ##[href^="www.nowbet"]
-!!template (replace /1005 with ending name)
-##[href$="/1005"]
-##[hrrf$="/1005/"]
-!!filters (end with)
+!!filters (end with) (/1005)
 ##[href$=".bet"]
 ##[hrrf$=".bet/"]
 ##[href$=".game"]
 ##[hrrf$=".game/"]
 
 ! generic cosmetic (strict domain)
-!!template (replace /1002 with domain name)
-##[href*="/1002"]
-!!filters
+!!filters (/1002)
 ##[href*="huc33."]
 ##[href*="ufanance"]
 ##[href*="ssgame561"]
@@ -148,9 +137,7 @@
 ##[href*="affhy88"]
 
 ! self exclude (maybe useful site)
-!!template (replace /1003 with domain name)
-~/1003.*##[href*="/1003."] > img
-!!filters
+!!filters (/1003)
 ~av-subthai.*##[href*="av-subthai."] > img
 ~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."] > img
 ~xn--83co4f.*##[href*="xn--83co4f."] > img
@@ -304,6 +291,8 @@ murim-manga.com###ads_fox_bottom
 ! inu-manga.com
 ! 2022-11-30 https://www.inu-manga.com
 www.inu-manga.com##.header-ads-section
+! 2023-02-25 https://www.inu-manga.com
+inu-manga.com##.menu > * > [href] > span:style(color: gray)
 
 ! mangauptocats.com
 ! 2022-11-30 https://mangauptocats.com
@@ -326,6 +315,8 @@ makimaaaaa.com##.kln.mlb.blox
 ! สดใสเมะ.com / xn--l3c0azab5a2gta.com
 ! 2022-11-30 https://www.xn--l3c0azab5a2gta.com
 www.xn--l3c0azab5a2gta.com##.ads
+! 2023-02-25 https://www.xn--l3c0azab5a2gta.com
+xn--l3c0azab5a2gta.com##.menu > * > [href] > span:style(color: gray)
 
 ! catzaa.com
 ! 2022-11-30 https://catzaa.com
@@ -486,14 +477,6 @@ meerkat-doujin.net##.wp-manga.c-top-sidebar.c-sidebar
 ! enable if mobile
 !#if env_mobile
 
-! replace image hyperlink to text
-!!template (replace /1006 with domain name)
-~/1006##[href*="/1006"] > img
-*,~/1006##[href*="/1006"]::after:style(content: "~/1006~" ;color: #8b60faff ;font-size: 20px)
-!!discord.gg
-~discord.gg##[href*="discord.gg"] > img
-*,~discord.gg##[href*="discord.gg"]::after:style(content: "discord.gg" ;color: white ;font-size: 16px ;background-color: #8b60fab3 ;font-family: Times New Roman)
-
 ! manga168
 ! 2022-11-30 https://manga168.com
 manga168.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
@@ -529,12 +512,6 @@ ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-cont
 ~telegram.*##[href*="telegram.me/share"]
 ~skype.*##[href*="skype.com/share"]
 ~linkedin.*##[href*="linkedin.com/sharing"]
-
-! สดใสเมะ.com / xn--l3c0azab5a2gta.com
-xn--l3c0azab5a2gta.com##.menu > * > [href] > span:style(color: gray)
-
-! inu-manga.com
-inu-manga.com##.menu > * > [href] > span:style(color: gray)
 
 ! manga168 / weimanga
 !!adguard base filters issue (blocked some image cover)
