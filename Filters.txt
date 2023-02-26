@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.26.23.2
+! Version: 02.26.23.3
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -292,7 +292,7 @@ murim-manga.com###ads_fox_bottom
 ! 2022-11-30 https://www.inu-manga.com
 www.inu-manga.com##.header-ads-section
 ! 2023-02-25 https://www.inu-manga.com
-inu-manga.com##.menu > * > [href] > span:style(color: lavender)
+inu-manga.com##.menu > * > [href] > span:style(color: lavender;)
 
 ! mangauptocats.com
 ! 2022-11-30 https://mangauptocats.com
@@ -316,7 +316,7 @@ makimaaaaa.com##.kln.mlb.blox
 ! 2022-11-30 https://www.xn--l3c0azab5a2gta.com
 www.xn--l3c0azab5a2gta.com##.ads
 ! 2023-02-25 https://www.xn--l3c0azab5a2gta.com
-xn--l3c0azab5a2gta.com##.menu > * > [href] > span:style(color: lavender)
+xn--l3c0azab5a2gta.com##.menu > * > [href] > span:style(color: lavender;)
 
 ! catzaa.com
 ! 2022-11-30 https://catzaa.com
@@ -454,7 +454,7 @@ www.ntr-manga.com##.header-ads-section
 nhentai.net##section.advt.advertisement.container:nth-of-type(1)
 nhentai.net##section.advt.advertisement.container:nth-of-type(2)
 nhentai.net##section.advt.advertisement.container:nth-of-type(3)
-nhentai.net##[href*="a.adtng.com"]
+nhentai.net##[href*="adtng.com"]
 
 ! hentaithai.com
 ! 2022-12-11 https://hentaithai.com
@@ -498,6 +498,10 @@ makimaaaaa.com##.swiper-container-android.swiper-container-horizontal.swiper-con
 ! ped-manga.com
 ! 2022-11-30 https://ped-manga.com
 ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
+
+! sing-manga.com
+! 2023-02-26 https://www.sing-manga.com
+sing-manga.com##span.mobilelogo:style(margin-top: 0px !important;)
 
 ! ending if mobile
 !#endif
