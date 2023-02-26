@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock Template (Noname)
 ! Expires: 6 hours
-! Version: 0.02.25.23.1
+! Version: 0.02.26.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: filters template for AdsBlock (Noname)
@@ -31,4 +31,4 @@
 
 ! replace image hyperlink to text (/1006 with domain name)
 ~/1006##[href*="/1006"] > img
-*,~/1006##[href*="/1006"]::after:style(content: "discord.gg" ;color: white ;font-size: 16px ;background-color: #8b60fab3 ;font-family: Times New Roman)
+*,~/1006##[href*="/1006"]::after:style(content: "discord.gg" ; color: white ; font-size: 16px ; background-color: #8b60fab3 ; font-family: Times New Roman ;)
