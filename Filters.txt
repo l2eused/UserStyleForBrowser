@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.26.23.4
+! Version: 02.27.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -135,6 +135,9 @@
 ##[href*="cutt.ly/N2v6gNK"]
 ##[href*="cryptobet"]
 ##[href*="affhy88"]
+##[href*="bit.ly/3Qup284"]
+##[href*="zolofttabs"]
+##[href*="qq724"]
 
 ! self exclude (maybe useful site)
 !!filters (/1003)
