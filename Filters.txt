@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.26.23.1
+! Version: 02.26.23.2
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -467,6 +467,11 @@ hentaithai.com##div.row:nth-of-type(2)
 ! 2022-12-15 https://meerkat-doujin.net
 meerkat-doujin.net##.floating_content
 meerkat-doujin.net##.wp-manga.c-top-sidebar.c-sidebar
+
+! sing-manga.com
+! 2023-02-26 https://www.sing-manga.com
+sing-manga.com###menu-main.menu > * > .sub-menu
+sing-manga.com##div.mt-20
 
 
 
