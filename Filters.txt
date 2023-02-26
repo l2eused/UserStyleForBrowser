@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.25.23.5
+! Version: 02.26.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -516,6 +516,8 @@ ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-cont
 ! manga168 / weimanga
 !!adguard base filters issue (blocked some image cover)
 @@/*.gif$domain=weimanga.com|manga168.com,image
+!!adguard base filters issue
+manga168.com#@#center > a[target="_blank"] > img
 
 
 
