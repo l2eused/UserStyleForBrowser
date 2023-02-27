@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock Template (Noname)
-! Expires: 6 hours
-! Version: 0.02.26.23.1
+! Expires: 3 days
+! Version: 0.02.27.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: filters template for AdsBlock (Noname)
