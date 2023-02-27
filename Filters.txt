@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.27.23.1
+! Version: 02.27.23.2
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -485,11 +485,11 @@ sing-manga.com##div.mt-20
 ! enable if mobile
 !#if env_mobile
 
-! manga168
+! manga168.com
 ! 2022-11-30 https://manga168.com
 manga168.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 
-! murim-manga
+! murim-manga.com
 ! 2022-11-30 https://murim-manga.com
 murim-manga.com##.dessert-frame
 murim-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
@@ -525,9 +525,11 @@ sing-manga.com##span.mobilelogo:style(margin-top: 0px !important ;)
 ~skype.*##[href*="skype.com/share"]
 ~linkedin.*##[href*="linkedin.com/sharing"]
 
-! manga168 / weimanga
+! manga168.com / weimanga.com
 !!adguard base filters issue (blocked some image cover)
 @@/*.gif$domain=weimanga.com|manga168.com,image
+
+! manga168.com
 !!adguard base filters issue
 manga168.com#@#center > a[target="_blank"] > img
 
