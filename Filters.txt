@@ -508,7 +508,7 @@ sing-manga.com##span.mobilelogo:style(margin-top: 0px !important ;)
 
 ! kingsmanga.net
 ! 2023-02-27 https://www.kingsmanga.net
-kingsmanga.net##.reader-content > div > .post-content > img:style(width: 95% ; height: auto ;)
+kingsmanga.net##.reader-content > div > .post-content > img:style(width: 1000px !important ; height: auto ;)
 
 ! ending if mobile
 !#endif
