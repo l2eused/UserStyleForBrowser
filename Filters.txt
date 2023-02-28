@@ -464,7 +464,6 @@ hentaithai.com##.container > div > div.row:nth-of-type(2)
 hentaithai.com##.col-md-3.col-12 > div.row:nth-of-type(3)
 hentaithai.com##.container > div > div.row:nth-of-type(4) > div.col-12.col-md-3
 hentaithai.com##div.col-12.col-md-9 > div.row > div.col-12 > br
-hentaithai.com##[href*="adtng.com"]
 
 ! hentaithai.net
 ! 2023-02-28 https://hentaithai.net
@@ -477,7 +476,6 @@ meerkat-doujin.net##.wp-manga.c-top-sidebar.c-sidebar
 
 ! sing-manga.com
 ! 2023-02-26 https://www.sing-manga.com
-sing-manga.com###menu-main.menu > * > .sub-menu
 sing-manga.com##div.mt-20
 
 
@@ -509,6 +507,8 @@ ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-cont
 ! sing-manga.com
 ! 2023-02-26 https://www.sing-manga.com
 sing-manga.com##span.mobilelogo:style(margin-top: 0px !important;)
+! 2023-02-28 https://www.sing-manga.com
+sing-manga.com###menu-main.menu > li:has([class*="sub-menu"])
 
 ! kingsmanga.net
 ! 2023-02-27 https://www.kingsmanga.net
@@ -573,3 +573,4 @@ https://filters.adavoid.org/ultimate-security-filter.txt
 ! ----------------------------- !
 
 ! stay safe.
+! together forever 💙
