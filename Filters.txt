@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.28.23.3
+! Version: 02.28.23.4
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -293,9 +293,9 @@ murim-manga.com###ads_fox_bottom
 
 ! inu-manga.com
 ! 2022-11-30 https://www.inu-manga.com
-www.inu-manga.com##.header-ads-section
+inu-manga.com##.header-ads-section
 ! 2023-02-25 https://www.inu-manga.com
-inu-manga.com##.menu > * > [href] > span:style(color: lavender ;)
+inu-manga.com##.menu > * > [href] > span:style(color: lavender;)
 
 ! mangauptocats.com
 ! 2022-11-30 https://mangauptocats.com
@@ -317,9 +317,9 @@ makimaaaaa.com##.kln.mlb.blox
 
 ! สดใสเมะ.com / xn--l3c0azab5a2gta.com
 ! 2022-11-30 https://www.xn--l3c0azab5a2gta.com
-www.xn--l3c0azab5a2gta.com##.ads
+xn--l3c0azab5a2gta.com##.ads
 ! 2023-02-25 https://www.xn--l3c0azab5a2gta.com
-xn--l3c0azab5a2gta.com##.menu > * > [href] > span:style(color: lavender ;)
+xn--l3c0azab5a2gta.com##.menu > * > [href] > span:style(color: lavender;)
 
 ! catzaa.com
 ! 2022-11-30 https://catzaa.com
@@ -332,7 +332,7 @@ catzaa.com###bottom_center_ads_1
 
 ! nabee-manga.com
 ! 2022-11-30 https://www.nabee-manga.com
-www.nabee-manga.com##.header-ads-section
+nabee-manga.com##.header-ads-section
 
 ! mafia-manga.com
 ! 2022-11-30 https://mafia-manga.com
@@ -348,8 +348,8 @@ ped-manga.com###wbnn
 
 ! manhuakey.com
 ! 2022-11-30 https://www.manhuakey.com
-www.manhuakey.com##.mb-2.mt-2.text-center.col-md-12.ads
-www.manhuakey.com##.ads-float
+manhuakey.com##.mb-2.mt-2.text-center.col-md-12.ads
+manhuakey.com##.ads-float
 
 ! manhwathailand.com
 ! 2023-02-15 https://manhwathailand.com
@@ -375,7 +375,7 @@ god-doujin.com##.text-center.gd-ban
 
 ! godhman.net
 ! 2023-01-10 https://www.godhman.net
-www.godhman.net##.header-ads-section
+godhman.net##.header-ads-section
 
 ! toonhunter.com
 ! 2022-12-22 https://toonhunter.com
@@ -394,13 +394,13 @@ mangadeemak.com##.wp-manga.c-top-sidebar.c-sidebar
 
 ! niceoppai.net
 ! 2023-01-08 https://www.niceoppai.net
-www.niceoppai.net##.mng_rdr.wpm_pag > center
-www.niceoppai.net###sct_top_banner > .textwidget
-www.niceoppai.net###sct_footer_banner
+niceoppai.net##.mng_rdr.wpm_pag > center
+niceoppai.net###sct_top_banner > .textwidget
+niceoppai.net###sct_footer_banner
 ! 2023-01-18 https://www.niceoppai.net
-www.niceoppai.net##.widget_text.top_page
-www.niceoppai.net###text-90
-www.niceoppai.net###text-32
+niceoppai.net##.widget_text.top_page
+niceoppai.net###text-90
+niceoppai.net###text-32
 
 ! cartoonth12.com
 ! 2023-02-06 https://cartoonth12.com
@@ -408,11 +408,11 @@ cartoonth12.com##.dessert-frame
 
 ! mangaisekaithai.com
 ! 2023-01-08 https://www.mangaisekaithai.com
-www.mangaisekaithai.com##.mb-2.mt-2.text-center.col-md-12.ads
+mangaisekaithai.com##.mb-2.mt-2.text-center.col-md-12.ads
 
 ! thaimanga.net
 ! 2023-01-21 https://www.thaimanga.net
-www.thaimanga.net##.ads
+thaimanga.net##.ads
 
 ! toomtam-manga.com
 ! 2023-01-21 https://toomtam-manga.com
@@ -450,21 +450,23 @@ miku-doujin.com##.card-body > .mb-3.text-center
 
 ! ntr-manga.com
 ! 2022-11-30 https://www.ntr-manga.com
-www.ntr-manga.com##.header-ads-section
+ntr-manga.com##.header-ads-section
 
 ! nhentai.net
 ! 2022-11-30 https://nhentai.net
-nhentai.net##section.advt.advertisement.container:nth-of-type(1)
-nhentai.net##section.advt.advertisement.container:nth-of-type(2)
-nhentai.net##section.advt.advertisement.container:nth-of-type(3)
+nhentai.net##section.advt.advertisement.container
 nhentai.net##[href*="adtng.com"]
 
 ! hentaithai.com
 ! 2022-12-11 https://hentaithai.com
 hentaithai.com##div.row:nth-of-type(2)
-||hentaithai.com/banner/topic_pre.html$subdocument
-! 2023-01-08 https://hentaithai.com
-||hentaithai.com/banner/main_pre.html$subdocument
+! 2023-02-28 https://hentaithai.com
+hentaithai.com##div.col-12 > .card > .card-body > div[fb-iframe-plugin-query]
+hentaithai.com##.col-md-3.col-12
+
+! hentaithai.net
+! 2023-02-28 https://hentaithai.net
+hentaithai.net##div.col-12 > .card > .card-body > div[fb-iframe-plugin-query]
 
 ! meerkat-doujin.net
 ! 2022-12-15 https://meerkat-doujin.net
@@ -504,11 +506,11 @@ ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-cont
 
 ! sing-manga.com
 ! 2023-02-26 https://www.sing-manga.com
-sing-manga.com##span.mobilelogo:style(margin-top: 0px !important ;)
+sing-manga.com##span.mobilelogo:style(margin-top: 0px !important;)
 
 ! kingsmanga.net
 ! 2023-02-27 https://www.kingsmanga.net
-kingsmanga.net##.reader-content > div > .post-content > img:style(width: 1000px !important ; height: auto !important ;)
+kingsmanga.net##.reader-content > div > .post-content > img:style(width: 1000px !important; height: auto !important;)
 
 ! ending if mobile
 !#endif
@@ -528,6 +530,9 @@ kingsmanga.net##.reader-content > div > .post-content > img:style(width: 1000px 
 ~telegram.*##[href*="telegram.me/share"]
 ~skype.*##[href*="skype.com/share"]
 ~linkedin.*##[href*="linkedin.com/sharing"]
+
+! social button
+~facebook.*##[src*="facebook"][src*="plugins/like.php"]
 
 ! manga168.com / weimanga.com
 !!adguard base filters issue (blocked some image cover)
