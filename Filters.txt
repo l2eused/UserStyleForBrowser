@@ -508,7 +508,11 @@ sing-manga.com##span.mobilelogo:style(margin-top: 0px !important ;)
 
 ! kingsmanga.net
 ! 2023-02-27 https://www.kingsmanga.net
-kingsmanga.net##.reader-content > div > .post-content > img:style(width: 100% !important ; height: auto !important ;)
+kingsmanga.net##.reader-content > div > .post-content > img:style(width: 90% !important ; height: auto !important ;)
+
+! niceoppai.net
+! 2023-02-28 https://www.niceoppai.net
+niceoppai.net###image-container > center > img:style(width: 90% !important ; height: auto !important ;)
 
 ! ending if mobile
 !#endif
