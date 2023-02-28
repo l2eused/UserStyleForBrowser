@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.28.23.1
+! Version: 02.28.23.2
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -508,7 +508,7 @@ sing-manga.com##span.mobilelogo:style(margin-top: 0px !important ;)
 
 ! kingsmanga.net
 ! 2023-02-27 https://www.kingsmanga.net
-kingsmanga.net##.reader-content > div > .post-content > img:style(width: 1000px !important ; height: auto !important ;)
+kingsmanga.net##.reader-content > div > .post-content > img:style(width: 100% !important ; height: auto !important ;)
 
 ! ending if mobile
 !#endif
