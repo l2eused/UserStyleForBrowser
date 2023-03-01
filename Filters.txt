@@ -141,18 +141,18 @@
 
 ! self exclude (maybe useful site)
 !!filters (/1003)
-*,~av-subthai.*##[href*="av-subthai."] > img
-*,~ped-doujin.*##[href*="ped-doujin."] > img
-*,~hentai168.*##[href*="hentai168."] > img
-*,~moviethai4u.*##[href*="moviethai4u."] > img
-*,~aoxx69.*##[href*="aoxx69."] > img
-*,~pali.land##[href*="pali.land"] > img
-*,~cartoonth12.*##[href*="cartoonth12."] > img
+~av-subthai.*##[href*="av-subthai."] > img
+~ped-doujin.*##[href*="ped-doujin."] > img
+~hentai168.*##[href*="hentai168."] > img
+~moviethai4u.*##[href*="moviethai4u."] > img
+~aoxx69.*##[href*="aoxx69."] > img
+~pali.land##[href*="pali.land"] > img
+~cartoonth12.*##[href*="cartoonth12."] > img
 !!filters (other language)
-*,~xn--42c5aw3bxe1a.*##[href*="ดูคลิป."] > img
-*,~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."] > img
-*,~xn--83co4f.*##[href*="หำ."] > img
-*,~xn--83co4f.*##[href*="xn--83co4f."] > img
+~xn--42c5aw3bxe1a.*##[href*="ดูคลิป."] > img
+~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."] > img
+~xn--83co4f.*##[href*="หำ."] > img
+~xn--83co4f.*##[href*="xn--83co4f."] > img
 
 ! import filters (and edit) by others
 !!credits: https://github.com/Faelayis/adblock-thai-filters
@@ -527,17 +527,17 @@ kingsmanga.net##.reader-content > div > .post-content > img:style(width: 1000px 
 ! ------------------------- !
 
 ! social share button
-*,~facebook.*##[href*="facebook.com/sharer"]
-*,~twitter.*##[href*="twitter.com/intent/tweet"]
-*,~whatsapp.*##[href*="whatsapp://send"]
-*,~whatsapp.*##[href*="whatsapp.com/send"]
-*,~pinterest.*##[href*="pinterest.com/pin/create/button"]
-*,~telegram.*##[href*="telegram.me/share"]
-*,~skype.*##[href*="skype.com/share"]
-*,~linkedin.*##[href*="linkedin.com/sharing"]
+~facebook.*##[href*="facebook.com/sharer"]
+~twitter.*##[href*="twitter.com/intent/tweet"]
+~whatsapp.*##[href*="whatsapp://send"]
+~whatsapp.*##[href*="whatsapp.com/send"]
+~pinterest.*##[href*="pinterest.com/pin/create/button"]
+~telegram.*##[href*="telegram.me/share"]
+~skype.*##[href*="skype.com/share"]
+~linkedin.*##[href*="linkedin.com/sharing"]
 
 ! social button
-*,~facebook.*##[src*="facebook"][src*="plugins/like.php"]
+~facebook.*##[src*="facebook"][src*="plugins/like.php"]
 
 ! manga168.com / weimanga.com
 !!adguard base filters issue (blocked some image cover)
