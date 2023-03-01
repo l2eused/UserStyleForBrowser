@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 02.28.23.6
+! Version: 03.01.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -142,14 +142,17 @@
 ! self exclude (maybe useful site)
 !!filters (/1003)
 ~av-subthai.*##[href*="av-subthai."] > img
-~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."] > img
-~xn--83co4f.*##[href*="xn--83co4f."] > img
 ~ped-doujin.*##[href*="ped-doujin."] > img
 ~hentai168.*##[href*="hentai168."] > img
 ~moviethai4u.*##[href*="moviethai4u."] > img
 ~aoxx69.*##[href*="aoxx69."] > img
 ~pali.land##[href*="pali.land"] > img
 ~cartoonth12.*##[href*="cartoonth12."] > img
+!!filters (other language)
+~xn--42c5aw3bxe1a.*##[href*="ดูคลิป."] > img
+~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."] > img
+~xn--83co4f.*##[href*="หำ."] > img
+~xn--83co4f.*##[href*="xn--83co4f."] > img
 
 ! import filters (and edit) by others
 !!credits: https://github.com/Faelayis/adblock-thai-filters
@@ -538,7 +541,7 @@ kingsmanga.net##.reader-content > div > .post-content > img:style(width: 1000px 
 
 ! manga168.com / weimanga.com
 !!adguard base filters issue (blocked some image cover)
-@@/*.gif$domain=weimanga.com|manga168.com,image
+@@/*.gif^$domain=weimanga.com|manga168.com,image
 
 ! manga168.com
 !!adguard base filters issue
