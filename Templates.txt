@@ -23,12 +23,12 @@
 ##[href*="/1002"]
 
 !template (/1003 with domain name)
-*,~/1003.*##[href*="/1003."] > img
+~/1003.*##[href*="/1003."] > img
 
 !template (/1005 with ending name)
 ##[href$="/1005"]
 ##[hrrf$="/1005/"]
 
 ! replace image hyperlink to text (/1006 with domain name)
-*,~/1006##[href*="/1006"] > img
+~/1006##[href*="/1006"] > img
 *,~/1006##[href*="/1006"]::after:style(content: "discord.gg" ; color: white ; font-size: 16px ; background-color: #8b60fab3 ; font-family: Times New Roman ;)
