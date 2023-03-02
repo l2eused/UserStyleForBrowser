@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock Template (Noname)
 ! Expires: 3 days
-! Version: 0.03.01.23.1
+! Version: 0.03.02.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: filters template for AdsBlock (Noname)
@@ -12,20 +12,20 @@
 ! ----- Template Filters ----- !
 ! ---------------------------- !
 
-!template (/1001 with domain name)
+! template (/1001 with domain name)
 ##[href^="https://www./1001"]
 ##[href^="http://www./1001"]
 ##[href^="https:///1001"]
 ##[href^="http:///1001"]
 ##[href^="www./1001"]
 
-!template (/1002 with domain name)
+! template (/1002 with domain name)
 ##[href*="/1002"]
 
-!template (/1003 with domain name)
+! template (/1003 with domain name)
 ~/1003.*##[href*="/1003."] > img
 
-!template (/1005 with ending name)
+! template (/1005 with ending name)
 ##[href$="/1005"]
 ##[hrrf$="/1005/"]
 
