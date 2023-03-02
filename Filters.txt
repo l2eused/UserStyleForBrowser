@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 03.01.23.2
+! Version: 03.02.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -74,6 +74,8 @@
 ##[hrrf$=".bet/"]
 ##[href$=".game"]
 ##[hrrf$=".game/"]
+##[href$=".vip"]
+##[hrrf$=".vip/"]
 
 ! generic cosmetic (strict domain)
 !!filters (/1002)
@@ -138,6 +140,11 @@
 ##[href*="bit.ly/3Qup284"]
 ##[href*="zolofttabs"]
 ##[href*="qq724"]
+##[href*="thais4.com"]
+##[href*="scb9.net"]
+##[href*="lv177.net"]
+##[href*="thais.bet"]
+##[href*="lvslot"]
 
 ! self exclude (maybe useful site)
 !!filters (/1003)
@@ -148,6 +155,8 @@
 ~aoxx69.*##[href*="aoxx69."] > img
 ~pali.land##[href*="pali.land"] > img
 ~cartoonth12.*##[href*="cartoonth12."] > img
+~manga-bl.*##[href*="manga-bl.com"] > img
+~anime-yaoi.*##[href*="anime-yaoi.com"] > img
 !!filters (other language)
 ~xn--42c5aw3bxe1a.*##[href*="ดูคลิป."] > img
 ~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."] > img
@@ -367,6 +376,7 @@ manhuakey.com##.ads-float
 manhwathailand.com###wbnn
 ! 2023-03-01 https://manhwathailand.com
 tumblr_pe8dj1UNr71x8dkuto1_540.gif^$image,domain=manhwathailand.com
+manhwathailand.com##.content > .ads
 
 ! manga-sugoi.com
 ! 2022-12-06 https://manga-sugoi.com
