@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 03.01.23.1
+! Version: 03.01.23.2
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
 
 
 
-! -------------------------- !
-! ----- General Banner ----- !
-! -------------------------- !
+! ------------------------------ !
+! ----- General Ads Banner ----- !
+! ------------------------------ !
 
 ! generic cosmetic
 !!filters (start with) (/1001)
@@ -265,12 +265,12 @@
 
 
 
-! ------------------------- !
-! ----- Custom Filters ---- !
-! ------------------------- !
+! -------------------------- !
+! ----- Custom Filters ----- !
+! -------------------------- !
 
 ! newtoki / manatoki
-##[href*="/bbs/linkbn.php"]
+##[href*="/bbs/linkbn.php?bn_id="]
 ||manatoki*/tokinbtoki/*.gif^
 ||newtoki*/tokinbtoki/*.gif^
 
@@ -280,6 +280,10 @@ manga168.com##.dessert-frame > center
 manga168.com##.kln
 ! 2023-02-02 https://manga168.com
 manga168.com##.socialts
+! 2023-03-01 https://manga168.com
+manga168.com##div#content:not([class]):style(margin-top: 10px !important; padding-bottom: 10px !important;)
+manga168.com##div#content:has([class]):style(padding-bottom: 10px !important;)
+manga168.com##div#footer:style(margin-top: 0px !important;)
 
 ! weimanga.com
 ! 2022-11-30 https://weimanga.com
@@ -332,6 +336,10 @@ catzaa.com###advanced_floating_content_14922
 catzaa.com##.wp-manga.c-top-sidebar.c-sidebar
 ! 2022-12-01 https://catzaa.com
 catzaa.com###bottom_center_ads_1
+! 2023-02-28 https://catzaa.com
+catzaa.com##.c-top-second-sidebar.c-sidebar
+catzaa.com##.c-top-sidebar.c-sidebar
+||catzaa.com/wp-content/themes/madara/images/bg-search.jpg^$image,domain=catzaa.com
 
 ! nabee-manga.com
 ! 2022-11-30 https://www.nabee-manga.com
@@ -357,6 +365,8 @@ manhuakey.com##.ads-float
 ! manhwathailand.com
 ! 2023-02-15 https://manhwathailand.com
 manhwathailand.com###wbnn
+! 2023-03-01 https://manhwathailand.com
+tumblr_pe8dj1UNr71x8dkuto1_540.gif^$image,domain=manhwathailand.com
 
 ! manga-sugoi.com
 ! 2022-12-06 https://manga-sugoi.com
@@ -481,11 +491,15 @@ meerkat-doujin.net##.wp-manga.c-top-sidebar.c-sidebar
 ! 2023-02-26 https://www.sing-manga.com
 sing-manga.com##div.mt-20
 
+! nekopost.net
+! 2023-03-01 https://www.nekopost.net
+nekopost.net##div.card.bg-white.svelte-5e2uqe:has([id="remark42"] > iframe[src*="nekopost"]):style(background-color: rgb(228,231,240) !important;)
 
 
-! -------------------------------- !
-! ----- Mobile Custom Filters ---- !
-! -------------------------------- !
+
+! --------------------------------- !
+! ----- Mobile Custom Filters ----- !
+! --------------------------------- !
 
 ! enable if mobile
 !#if env_mobile
@@ -516,6 +530,10 @@ sing-manga.com###menu-main.menu > li:has([class*="sub-menu"])
 ! kingsmanga.net
 ! 2023-02-27 https://www.kingsmanga.net
 kingsmanga.net##.reader-content > div > .post-content > img:style(width: 1000px !important; height: auto !important;)
+
+! nekopost.net
+! 2023-03-01 https://www.nekopost.net
+nekopost.net##div.layout-helper.svelte-ixpqjn button:style(width: 35px !important; height: 35px !important; padding: 0px !important;)
 
 ! ending if mobile
 !#endif
