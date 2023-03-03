@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 03.02.23.1
+! Version: 03.03.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -162,6 +162,8 @@
 ~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."] > img
 ~xn--83co4f.*##[href*="หำ."] > img
 ~xn--83co4f.*##[href*="xn--83co4f."] > img
+~xn--82cxq1ixc.*##[href*="โดจิน."] > img
+~xn--82cxq1ixc.*##[href*="xn--82cxq1ixc."] > img
 
 ! import filters (and edit) by others
 !!credits: https://github.com/Faelayis/adblock-thai-filters
