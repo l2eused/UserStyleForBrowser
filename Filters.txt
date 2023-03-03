@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 03.03.23.1
+! Version: 03.03.23.2
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -69,6 +69,16 @@
 ##[href^="https://nowbet"]
 ##[href^="http://nowbet"]
 ##[href^="www.nowbet"]
+##[href^="https://www.lucaclub"]
+##[href^="http://www.lucaclub"]
+##[href^="https://lucaclub"]
+##[href^="http://lucaclub"]
+##[href^="www.lucaclub"]
+##[href^="https://www.nowbet"]
+##[href^="http://www.nowbet"]
+##[href^="https://nowbet"]
+##[href^="http://nowbet"]
+##[href^="www.nowbet"]
 !!filters (end with) (/1005)
 ##[href$=".bet"]
 ##[hrrf$=".bet/"]
@@ -91,8 +101,7 @@
 ##[href*="seolrea.net"]
 ##[href*="line.me/ti/p/dnkSvv-cow"]
 ##[href*="huaynew.wixsite."]
-##[href*="record.mytopaff.com"]
-##[href*="usa567.cc"]
+##[href*="usa567."]
 ##[href*="pg133."]
 ##[href*="track.cdnyz.com"]
 ##[href*="pg.bet"]
@@ -103,8 +112,8 @@
 ##[href*="wb-kk."]
 ##[href*="ww-ot."]
 ##[href*="wn-st."]
-##[href*="sm-555"]
-##[href*="btr-7979"]
+##[href*="sm-555."]
+##[href*="btr-7979."]
 ##[href*="London168"]
 ##[href*="ufa747"]
 ##[href*="666slotclub"]
@@ -136,15 +145,20 @@
 ##[href*="betflix335"]
 ##[href*="cutt.ly/N2v6gNK"]
 ##[href*="cryptobet"]
-##[href*="affhy88"]
+##[href*="affhy88."]
 ##[href*="bit.ly/3Qup284"]
 ##[href*="zolofttabs"]
-##[href*="qq724"]
+##[href*="qq724."]
 ##[href*="thais4.com"]
 ##[href*="scb9.net"]
 ##[href*="lv177.net"]
 ##[href*="thais.bet"]
 ##[href*="lvslot"]
+##[href*="meyou147."]
+##[href*="bit.ly/newvegas168"]
+##[href*="lucky135"]
+##[href*="512xiaojin"]
+##[href*="record.mytopaff."]
 
 ! self exclude (maybe useful site)
 !!filters (/1003)
@@ -164,6 +178,10 @@
 ~xn--83co4f.*##[href*="xn--83co4f."] > img
 ~xn--82cxq1ixc.*##[href*="โดจิน."] > img
 ~xn--82cxq1ixc.*##[href*="xn--82cxq1ixc."] > img
+~xn--168-3ml1b5dxa4a2i.*##[href*="อนิเมะ168."] > img
+~xn--168-3ml1b5dxa4a2i.*##[href*="xn--168-3ml1b5dxa4a2i."] > img
+~xn--168-illyhf9jb2s.*##[href*="ซีรีย์168."] > img
+~xn--168-illyhf9jb2s.*##[href*="xn--168-illyhf9jb2s."] > img
 
 ! import filters (and edit) by others
 !!credits: https://github.com/Faelayis/adblock-thai-filters
