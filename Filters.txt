@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 03.03.23.2
+! Version: 03.04.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -157,10 +157,10 @@
 ##[href*="meyou147."]
 ##[href*="bit.ly/newvegas168"]
 ##[href*="lucky135"]
-##[href*="512xiaojin"]
+##[href*="512xiaojin"] 
 ##[href*="record.mytopaff."]
 
-! self exclude (maybe useful site)
+! self exclude (useful site maybe?)
 !!filters (/1003)
 ~av-subthai.*##[href*="av-subthai."] > img
 ~ped-doujin.*##[href*="ped-doujin."] > img
@@ -472,6 +472,12 @@ popsmanga.com##.dessert-frame
 fcmanga.com###wbnn
 fcmanga.com##.c-container.container > .c-row.row > .widget_block.no-icon.default.col-md-12.col-12.widget
 
+! fcmanga.net
+! 2023-03-04 https://fcmanga.net
+fcmanga.net###wbnn
+fcmanga.net##.wp-manga.c-top-sidebar.c-sidebar
+fcmanga.net##.wp-manga.c-top-second-sidebar.c-sidebar
+
 ! animehayai.net
 ! 2023-01-25 https://animehayai.net
 animehayai.net##.col-12
@@ -490,6 +496,7 @@ happymanga.net###bottom_center_ads
 ! 2022-11-30 https://miku-doujin.com
 miku-doujin.com##.mb-3.text-center.container
 miku-doujin.com##.card-body > .mb-3.text-center
+miku-doujin.com##html:style(background-color: black !important;)
 
 ! ntr-manga.com
 ! 2022-11-30 https://www.ntr-manga.com
