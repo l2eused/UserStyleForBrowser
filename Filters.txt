@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 03.04.23.1
+! Version: 03.11.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -304,182 +304,188 @@
 ||newtoki*/tokinbtoki/*.gif^
 
 ! manga168.com
-! 2022-11-30 https://manga168.com
+! 2022-11-30
 manga168.com##.dessert-frame > center
 manga168.com##.kln
-! 2023-02-02 https://manga168.com
+! 2023-02-02
 manga168.com##.socialts
-! 2023-03-01 https://manga168.com
+! 2023-03-01
 manga168.com##div#content:not([class]):style(margin-top: 10px !important; padding-bottom: 10px !important;)
 manga168.com##div#content:has([class]):style(padding-bottom: 10px !important;)
 manga168.com##div#footer:style(margin-top: 0px !important;)
 
 ! weimanga.com
-! 2022-11-30 https://weimanga.com
+! 2022-11-30
 weimanga.com##.slidtop
-! 2023-02-02 https://weimanga.com
+! 2023-02-02
 weimanga.com###wbnn
-! 2023-02-02 https://weimanga.com
+! 2023-02-02
 weimanga.com##.socialts
 
 ! murim-manga.com
-! 2022-11-30 https://murim-manga.com
+! 2022-11-30
 murim-manga.com##.dessert-frame
 murim-manga.com###ads_fox_bottom
 
 ! inu-manga.com
-! 2022-11-30 https://www.inu-manga.com
+! 2022-11-30
 inu-manga.com##.header-ads-section
-! 2023-02-25 https://www.inu-manga.com
+! 2023-02-25
 inu-manga.com##.menu > * > [href] > span:style(color: lavender;)
+! 2023-03-08
+inu-manga.com##div.fb-comments
 
 ! mangauptocats.com
-! 2022-11-30 https://mangauptocats.com
+! 2022-11-30
 mangauptocats.com##.widget_custom_html.heading-style-1.no-icon.default.col-md-12.col-12.widget.widget_text
 mangauptocats.com##.floating_content_1
 mangauptocats.com###upcat_ads2
 mangauptocats.com###upcat_ads3
 
 ! manga-uptocats.com
-! 2023-01-16 https://manga-uptocats.com
+! 2023-01-16
 manga-uptocats.com##.floating_content
 manga-uptocats.com###upcat_ads1
 manga-uptocats.com##.wp-manga.c-top-sidebar.c-sidebar
 
 ! makimaaaaa.com
-! 2023-01-17 https://makimaaaaa.com
+! 2023-01-17
 makimaaaaa.com###wbnn
 makimaaaaa.com##.kln.mlb.blox
 
 ! สดใสเมะ.com / xn--l3c0azab5a2gta.com
-! 2022-11-30 https://www.xn--l3c0azab5a2gta.com
+! 2022-11-30
 xn--l3c0azab5a2gta.com##.ads
-! 2023-02-25 https://www.xn--l3c0azab5a2gta.com
+! 2023-02-25
 xn--l3c0azab5a2gta.com##.menu > * > [href] > span:style(color: lavender;)
 
 ! catzaa.com
-! 2022-11-30 https://catzaa.com
+! 2022-11-30
 catzaa.com###custom_html-40
 catzaa.com###advanced_floating_content_14918
 catzaa.com###advanced_floating_content_14922
 catzaa.com##.wp-manga.c-top-sidebar.c-sidebar
-! 2022-12-01 https://catzaa.com
+! 2022-12-01
 catzaa.com###bottom_center_ads_1
-! 2023-02-28 https://catzaa.com
+! 2023-02-28
 catzaa.com##.c-top-second-sidebar.c-sidebar
 catzaa.com##.c-top-sidebar.c-sidebar
 ||catzaa.com/wp-content/themes/madara/images/bg-search.jpg^$image,domain=catzaa.com
 
 ! nabee-manga.com
-! 2022-11-30 https://www.nabee-manga.com
+! 2022-11-30
 nabee-manga.com##.header-ads-section
 
 ! mafia-manga.com
-! 2022-11-30 https://mafia-manga.com
+! 2022-11-30
 mafia-manga.com##.dessert-frame
-! 2022-12-18 https://mafia-manga.com
+! 2022-12-18
 mafia-manga.com###wbnn
 
 ! ped-manga.com
-! 2022-11-30 https://ped-manga.com
+! 2022-11-30
 ped-manga.com##.dessert-frame
-! 2022-12-18 https://ped-manga.com
+! 2022-12-18
 ped-manga.com###wbnn
 
 ! manhuakey.com
-! 2022-11-30 https://www.manhuakey.com
+! 2022-11-30
 manhuakey.com##.mb-2.mt-2.text-center.col-md-12.ads
 manhuakey.com##.ads-float
 
 ! manhwathailand.com
-! 2023-02-15 https://manhwathailand.com
+! 2023-02-15
 manhwathailand.com###wbnn
-! 2023-03-01 https://manhwathailand.com
+! 2023-03-01
 tumblr_pe8dj1UNr71x8dkuto1_540.gif^$image,domain=manhwathailand.com
 manhwathailand.com##.content > .ads
 
 ! manga-sugoi.com
-! 2022-12-06 https://manga-sugoi.com
+! 2022-12-06
 manga-sugoi.com##.kln.mlb.blox
-! 2022-12-18 https://manga-sugoi.com
+! 2022-12-18
 manga-sugoi.com##.ads
 
 ! god-manga.com
-! 2022-12-18 https://god-manga.com
+! 2022-12-18
 god-manga.com##.dessert-frame
 god-manga.com##.ads
 god-manga.com##p:nth-of-type(5)
 
 ! god-doujin.com
-! 2022-12-22 https://god-doujin.com
+! 2022-12-22
 god-doujin.com##.kln.mlb.blox
 god-doujin.com##.ads-info
 god-doujin.com##.text-center.gd-ban
+! 2023-03-11
+god-doujin.com###menu-main.menu > li > a[href$="/bookmark/"]:style(color: #f5a97f !important;)
 
 ! godhman.net
-! 2023-01-10 https://www.godhman.net
+! 2023-01-10
 godhman.net##.header-ads-section
 
 ! toonhunter.com
-! 2022-12-22 https://toonhunter.com
+! 2022-12-22
 toonhunter.com##.ads-info
 toonhunter.com##.text-center.th-ban
+! 2023-03-11
+toonhunter.com###menu-main.menu > li > a[href$="/bookmark/"]:style(color: #f5a97f !important;)
 
 ! kumomanga.com
-! 2023-02-06 https://kumomanga.com
+! 2023-02-06
 kumomanga.com##.wbnn-close
 
 ! mangadeemak.com
-! 2022-12-21 https://mangadeemak.com
+! 2022-12-21
 mangadeemak.com##.widget_custom_html.heading-style-1.no-icon.default.col-md-12.col-12.widget.widget_text
 mangadeemak.com##.floating_content
 mangadeemak.com##.wp-manga.c-top-sidebar.c-sidebar
 
 ! niceoppai.net
-! 2023-01-08 https://www.niceoppai.net
+! 2023-01-08
 niceoppai.net##.mng_rdr.wpm_pag > center
 niceoppai.net###sct_top_banner > .textwidget
 niceoppai.net###sct_footer_banner
-! 2023-01-18 https://www.niceoppai.net
+! 2023-01-18
 niceoppai.net##.widget_text.top_page
 niceoppai.net###text-90
 niceoppai.net###text-32
 
 ! cartoonth12.com
-! 2023-02-06 https://cartoonth12.com
+! 2023-02-06
 cartoonth12.com##.dessert-frame
 
 ! mangaisekaithai.com
-! 2023-01-08 https://www.mangaisekaithai.com
+! 2023-01-08
 mangaisekaithai.com##.mb-2.mt-2.text-center.col-md-12.ads
 
 ! thaimanga.net
-! 2023-01-21 https://www.thaimanga.net
+! 2023-01-21
 thaimanga.net##.ads
 
 ! toomtam-manga.com
-! 2023-01-21 https://toomtam-manga.com
+! 2023-01-21
 toomtam-manga.com##.dessert-frame
 toomtam-manga.com###wbnn
 
 ! popsmanga.com
-! 2023-01-17 https://popsmanga.com
+! 2023-01-17
 popsmanga.com###wbnn
 popsmanga.com##.dessert-frame
 
 ! fcmanga.com
-! 2023-01-17 https://fcmanga.com
+! 2023-01-17
 fcmanga.com###wbnn
 fcmanga.com##.c-container.container > .c-row.row > .widget_block.no-icon.default.col-md-12.col-12.widget
 
 ! fcmanga.net
-! 2023-03-04 https://fcmanga.net
+! 2023-03-04
 fcmanga.net###wbnn
 fcmanga.net##.wp-manga.c-top-sidebar.c-sidebar
 fcmanga.net##.wp-manga.c-top-second-sidebar.c-sidebar
 
 ! animehayai.net
-! 2023-01-25 https://animehayai.net
+! 2023-01-25
 animehayai.net##.col-12
 animehayai.net##.col-lg-3 > div.panel-primary.panel:nth-of-type(2)
 animehayai.net##.col-lg-3 > div.panel-primary.panel:nth-of-type(1)
@@ -488,27 +494,27 @@ animehayai.net##.error.entered.loadads.img-ads
 animehayai.net##.panel-body > .bottom-2x.text-center
 
 ! happymanga.net
-! 2023-01-27 https://happymanga.net
+! 2023-01-27
 happymanga.net##.wp-manga.c-top-sidebar.c-sidebar
 happymanga.net###bottom_center_ads
 
 ! miku-doujin.com
-! 2022-11-30 https://miku-doujin.com
+! 2022-11-30
 miku-doujin.com##.mb-3.text-center.container
 miku-doujin.com##.card-body > .mb-3.text-center
 miku-doujin.com##html:style(background-color: black !important;)
 
 ! ntr-manga.com
-! 2022-11-30 https://www.ntr-manga.com
+! 2022-11-30
 ntr-manga.com##.header-ads-section
 
 ! nhentai.net
-! 2022-11-30 https://nhentai.net
+! 2022-11-30
 nhentai.net##section.advt.advertisement.container
 nhentai.net##[href*="adtng.com"]
 
 ! hentaithai.com
-! 2023-02-28 https://hentaithai.com
+! 2023-02-28
 hentaithai.com##div.col-12 > .card > .card-body > div[fb-iframe-plugin-query]
 hentaithai.com##.container > div > div.row:nth-of-type(2)
 hentaithai.com##.col-md-3.col-12 > div.row:nth-of-type(3)
@@ -516,20 +522,28 @@ hentaithai.com##.container > div > div.row:nth-of-type(4) > div.col-12.col-md-3
 hentaithai.com##div.col-12.col-md-9 > div.row > div.col-12 > br
 
 ! hentaithai.net
-! 2023-02-28 https://hentaithai.net
+! 2023-02-28
 hentaithai.net##div.col-12 > .card > .card-body > div[fb-iframe-plugin-query]
 
 ! meerkat-doujin.net
-! 2022-12-15 https://meerkat-doujin.net
+! 2022-12-15
 meerkat-doujin.net##.floating_content
 meerkat-doujin.net##.wp-manga.c-top-sidebar.c-sidebar
 
 ! sing-manga.com
-! 2023-02-26 https://www.sing-manga.com
+! 2023-02-26
 sing-manga.com##div.mt-20
 
+! asurahunter.com
+! 2023-03-11
+asurahunter.com##.slidtop
+
+! มังงะ.net / xn--72ca0fwcc.net
+! 2023-03-08
+xn--72ca0fwcc.net##.slidtop
+
 ! nekopost.net
-! 2023-03-01 https://www.nekopost.net
+! 2023-03-01
 nekopost.net##div.card.bg-white.svelte-5e2uqe:has([id="remark42"] > iframe[src*="nekopost"]):style(background-color: rgb(228,231,240) !important;)
 
 
@@ -542,34 +556,34 @@ nekopost.net##div.card.bg-white.svelte-5e2uqe:has([id="remark42"] > iframe[src*=
 !#if env_mobile
 
 ! manga168.com
-! 2022-11-30 https://manga168.com
+! 2022-11-30
 manga168.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 
 ! murim-manga.com
-! 2022-11-30 https://murim-manga.com
+! 2022-11-30
 murim-manga.com##.dessert-frame
 murim-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 
 ! makimaaaaa.com
-! 2023-01-17 https://makimaaaaa.com
+! 2023-01-17
 makimaaaaa.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 
 ! ped-manga.com
-! 2022-11-30 https://ped-manga.com
+! 2022-11-30
 ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 
 ! sing-manga.com
-! 2023-02-26 https://www.sing-manga.com
+! 2023-02-26
 sing-manga.com##span.mobilelogo:style(margin-top: 0px !important;)
-! 2023-02-28 https://www.sing-manga.com
+! 2023-02-28
 sing-manga.com###menu-main.menu > li:has([class*="sub-menu"])
 
 ! kingsmanga.net
-! 2023-02-27 https://www.kingsmanga.net
+! 2023-02-27
 kingsmanga.net##.reader-content > div > .post-content > img:style(width: 1000px !important; height: auto !important;)
 
 ! nekopost.net
-! 2023-03-01 https://www.nekopost.net
+! 2023-03-01
 nekopost.net##div.layout-helper.svelte-ixpqjn button:style(width: 35px !important; height: 35px !important; padding: 0px !important;)
 
 ! ending if mobile
