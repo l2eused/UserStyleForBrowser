@@ -299,6 +299,7 @@
 ! -------------------------- !
 
 ! newtoki / manatoki
+! 2023-03-11
 ##[href*="/bbs/linkbn.php?bn_id="]
 ||manatoki*/tokinbtoki/*.gif^
 ||newtoki*/tokinbtoki/*.gif^
