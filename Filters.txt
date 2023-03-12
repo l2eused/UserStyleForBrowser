@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 03.11.23.2
+! Version: 03.12.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -561,7 +561,6 @@ manga168.com##.swiper-container-android.swiper-container-horizontal.swiper-conta
 
 ! murim-manga.com
 ! 2022-11-30
-murim-manga.com##.dessert-frame
 murim-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 
 ! makimaaaaa.com
