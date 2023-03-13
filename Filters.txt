@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 03.12.23.1
+! Version: 03.13.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -13,73 +13,83 @@
 ! ------------------------------ !
 
 ! generic cosmetic
-!!filters (start with) (/1001)
-##[href^="https://www.ufa"]
-##[href^="http://www.ufa"]
-##[href^="https://ufa"]
-##[href^="http://ufa"]
-##[href^="www.ufa"]
-##[href^="https://www.lotto"]
-##[href^="http://www.lotto"]
-##[href^="https://lotto"]
-##[href^="http://lotto"]
-##[href^="www.lotto"]
-##[href^="https://www.ssgame"]
-##[href^="http://www.ssgame"]
-##[href^="https://ssgame"]
-##[href^="http://ssgame"]
-##[href^="www.ssgame"]
-##[href^="https://www.sagame"]
-##[href^="http://www.sagame"]
-##[href^="https://sagame"]
-##[href^="http://sagame"]
-##[href^="www.sagame"]
-##[href^="https://www.sexygame"]
-##[href^="http://www.sexygame"]
-##[href^="https://sexygame"]
-##[href^="http://sexygame"]
-##[href^="www.sexygame"]
-##[href^="https://www.slot"]
-##[href^="http://www.slot"]
-##[href^="https://slot"]
-##[href^="http://slot"]
-##[href^="www.slot"]
-##[href^="https://www.casino"]
-##[href^="http://www.casino"]
-##[href^="https://casino"]
-##[href^="http://casino"]
-##[href^="www.casino"]
-##[href^="https://www.hotgraph"]
-##[href^="http://www.hotgraph"]
-##[href^="https://hotgraph"]
-##[href^="http://hotgraph"]
-##[href^="www.hotgraph"]
-##[href^="https://www.baccara"]
-##[href^="http://www.baccara"]
-##[href^="https://baccara"]
-##[href^="http://baccara"]
-##[href^="www.baccara"]
-##[href^="https://www.huay"]
-##[href^="http://www.huay"]
-##[href^="https://huay"]
-##[href^="http://huay"]
-##[href^="www.huay"]
-##[href^="https://www.nowbet"]
-##[href^="http://www.nowbet"]
-##[href^="https://nowbet"]
-##[href^="http://nowbet"]
-##[href^="www.nowbet"]
-##[href^="https://www.lucaclub"]
-##[href^="http://www.lucaclub"]
-##[href^="https://lucaclub"]
-##[href^="http://lucaclub"]
-##[href^="www.lucaclub"]
-##[href^="https://www.nowbet"]
-##[href^="http://www.nowbet"]
-##[href^="https://nowbet"]
-##[href^="http://nowbet"]
-##[href^="www.nowbet"]
-!!filters (end with) (/1005)
+!!filters (start with) (template 1001)
+##[href*="https://www.ufa"]
+##[href*="http://www.ufa"]
+##[href*="https://ufa"]
+##[href*="http://ufa"]
+##[href*="www.ufa"]
+##[href*="https://www.lotto"]
+##[href*="http://www.lotto"]
+##[href*="https://lotto"]
+##[href*="http://lotto"]
+##[href*="www.lotto"]
+##[href*="https://www.ssgame"]
+##[href*="http://www.ssgame"]
+##[href*="https://ssgame"]
+##[href*="http://ssgame"]
+##[href*="www.ssgame"]
+##[href*="https://www.sagame"]
+##[href*="http://www.sagame"]
+##[href*="https://sagame"]
+##[href*="http://sagame"]
+##[href*="www.sagame"]
+##[href*="https://www.sexygame"]
+##[href*="http://www.sexygame"]
+##[href*="https://sexygame"]
+##[href*="http://sexygame"]
+##[href*="www.sexygame"]
+##[href*="https://www.slot"]
+##[href*="http://www.slot"]
+##[href*="https://slot"]
+##[href*="http://slot"]
+##[href*="www.slot"]
+##[href*="https://www.casino"]
+##[href*="http://www.casino"]
+##[href*="https://casino"]
+##[href*="http://casino"]
+##[href*="www.casino"]
+##[href*="https://www.hotgraph"]
+##[href*="http://www.hotgraph"]
+##[href*="https://hotgraph"]
+##[href*="http://hotgraph"]
+##[href*="www.hotgraph"]
+##[href*="https://www.baccara"]
+##[href*="http://www.baccara"]
+##[href*="https://baccara"]
+##[href*="http://baccara"]
+##[href*="www.baccara"]
+##[href*="https://www.huay"]
+##[href*="http://www.huay"]
+##[href*="https://huay"]
+##[href*="http://huay"]
+##[href*="www.huay"]
+##[href*="https://www.nowbet"]
+##[href*="http://www.nowbet"]
+##[href*="https://nowbet"]
+##[href*="http://nowbet"]
+##[href*="www.nowbet"]
+##[href*="https://www.lucaclub"]
+##[href*="http://www.lucaclub"]
+##[href*="https://lucaclub"]
+##[href*="http://lucaclub"]
+##[href*="www.lucaclub"]
+##[href*="https://www.nowbet"]
+##[href*="http://www.nowbet"]
+##[href*="https://nowbet"]
+##[href*="http://nowbet"]
+##[href*="www.nowbet"]
+##[href*="https://www.betflix"]
+##[href*="http://www.betflix"]
+##[href*="https://betflix"]
+##[href*="http://betflix"]
+##[href*="www.betflix"]
+##[href*="https://www.betflik"]
+##[href*="http://www.betflik"]
+##[href*="https://betflik"]
+##[href*="http://betflik"]
+##[href*="www.betflik"]
+!!filters (end with) (template 1005)
 ##[href$=".bet"]
 ##[hrrf$=".bet/"]
 ##[href$=".game"]
@@ -88,7 +98,7 @@
 ##[hrrf$=".vip/"]
 
 ! generic cosmetic (strict domain)
-!!filters (/1002)
+!!filters (template 1002)
 ##[href*="huc33."]
 ##[href*="ufanance"]
 ##[href*="ssgame561"]
@@ -158,10 +168,17 @@
 ##[href*="bit.ly/newvegas168"]
 ##[href*="lucky135"]
 ##[href*="512xiaojin"] 
+##[href*="betflixcasino"]
 ##[href*="record.mytopaff."]
+##[href*="spinix188"]
+##[href*="ufamax24"]
+##[href*="928hd"]
+##[href*="bit.ly/3xVB3Mw"]
+##[href*="gclub-casino"]
+##[href*="lin.ee/1ALiEXl"]
 
 ! self exclude (useful site maybe?)
-!!filters (/1003)
+!!filters (template 1003)
 ~av-subthai.*##[href*="av-subthai."] > img
 ~ped-doujin.*##[href*="ped-doujin."] > img
 ~hentai168.*##[href*="hentai168."] > img
@@ -171,6 +188,7 @@
 ~cartoonth12.*##[href*="cartoonth12."] > img
 ~manga-bl.*##[href*="manga-bl.com"] > img
 ~anime-yaoi.*##[href*="anime-yaoi.com"] > img
+~kuro-doujin.*##[href*="kuro-doujin."] > img
 !!filters (with punycode domain)
 ~xn--42c5aw3bxe1a.*##[href*="ดูคลิป."] > img
 ~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."] > img
@@ -314,6 +332,8 @@ manga168.com##.socialts
 manga168.com##div#content:not([class]):style(margin-top: 10px !important; padding-bottom: 10px !important;)
 manga168.com##div#content:has([class]):style(padding-bottom: 10px !important;)
 manga168.com##div#footer:style(margin-top: 0px !important;)
+! 2023-03-13
+manga168.com###menu-menu.menu > li > a[href$="/bookmark/"]:style(color: #f5a97f !important;)
 
 ! weimanga.com
 ! 2022-11-30
@@ -530,6 +550,15 @@ hentaithai.net##div.col-12 > .card > .card-body > div[fb-iframe-plugin-query]
 meerkat-doujin.net##.floating_content
 meerkat-doujin.net##.wp-manga.c-top-sidebar.c-sidebar
 
+! kuro-manga.com
+! 2023-03-13
+www.kuro-manga.com##.c-top-sidebar.c-sidebar
+
+! nano-manga.com
+! 2023-03-13
+nano-manga.com##.sticky-close
+nano-manga.com##.wp-manga.c-top-sidebar.c-sidebar
+
 ! sing-manga.com
 ! 2023-02-26
 sing-manga.com##div.mt-20
@@ -545,6 +574,7 @@ xn--72ca0fwcc.net##.slidtop
 ! nekopost.net
 ! 2023-03-01
 nekopost.net##div.card.bg-white.svelte-5e2uqe:has([id="remark42"] > iframe[src*="nekopost"]):style(background-color: rgb(228,231,240) !important;)
+nekopost.net##div.chapter-content.svelte-ixpqjn div.t-center.item-content > p.text-page.text-center.svelte-ixpqjn:style(margin-bottom: 10px !important; font-size: 16px !important; color: #9295A4 !important;)
 
 
 
