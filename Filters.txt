@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 03.13.23.2
+! Version: 03.14.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -415,7 +415,7 @@ manhuakey.com##.ads-float
 
 ! rh2plusmanga.com
 ! 2023-03-13
-rh2plusmanga.com##div.profile-manga:style(background-image: none !important; background-color: white !important;)
+rh2plusmanga.com##div.profile-manga:style(background-image: none !important; background-color: transparent !important;)
 ||rh2plusmanga.com/wp-content/uploads/*/bg-search.jpg^$image,domain=rh2plusmanga.com
 rh2plusmanga.com##.c-top-sidebar.c-sidebar
 
