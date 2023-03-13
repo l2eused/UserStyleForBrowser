@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 03.13.23.1
+! Version: 03.13.23.2
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -413,6 +413,12 @@ ped-manga.com###wbnn
 manhuakey.com##.mb-2.mt-2.text-center.col-md-12.ads
 manhuakey.com##.ads-float
 
+! rh2plusmanga.com
+! 2023-03-13
+rh2plusmanga.com##div.profile-manga:style(background-image: none !important; background-color: white !important;)
+||rh2plusmanga.com/wp-content/uploads/*/bg-search.jpg^$image,domain=rh2plusmanga.com
+rh2plusmanga.com##.c-top-sidebar.c-sidebar
+
 ! manhwathailand.com
 ! 2023-02-15
 manhwathailand.com###wbnn
@@ -595,6 +601,10 @@ murim-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-co
 ! makimaaaaa.com
 ! 2023-01-17
 makimaaaaa.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
+
+! rh2plusmanga.com
+! 2023-03-13
+rh2plusmanga.com##.c-top-second-sidebar.c-sidebar:style(padding-bottom: 0px !important; padding-top: 0px !important)
 
 ! ped-manga.com
 ! 2022-11-30
