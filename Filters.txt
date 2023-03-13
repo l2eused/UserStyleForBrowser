@@ -574,7 +574,6 @@ xn--72ca0fwcc.net##.slidtop
 ! nekopost.net
 ! 2023-03-01
 nekopost.net##div.card.bg-white.svelte-5e2uqe:has([id="remark42"] > iframe[src*="nekopost"]):style(background-color: rgb(228,231,240) !important;)
-nekopost.net##div.chapter-content.svelte-ixpqjn div.t-center.item-content > p.text-page.text-center.svelte-ixpqjn:style(margin-bottom: 10px !important; font-size: 16px !important; color: #9295A4 !important;)
 
 
 
@@ -614,6 +613,7 @@ kingsmanga.net##.reader-content .post-content > img:style(width: 1000px !importa
 ! nekopost.net
 ! 2023-03-01
 nekopost.net##div.layout-helper.svelte-ixpqjn button:style(width: 35px !important; height: 35px !important; padding: 0px !important;)
+nekopost.net##div.chapter-content.svelte-ixpqjn div.t-center.item-content > p.text-page.text-center.svelte-ixpqjn:style(margin-bottom: 10px !important; font-size: 16px !important; color: #9295A4 !important;)
 
 ! ending if mobile
 !#endif
