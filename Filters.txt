@@ -604,7 +604,7 @@ makimaaaaa.com##.swiper-container-android.swiper-container-horizontal.swiper-con
 
 ! rh2plusmanga.com
 ! 2023-03-13
-rh2plusmanga.com##.c-top-second-sidebar.c-sidebar:style(padding-bottom: 0px !important; padding-top: 0px !important)
+rh2plusmanga.com##.c-top-second-sidebar.c-sidebar:style(padding-bottom: 0px !important; padding-top: 0px !important;)
 
 ! ped-manga.com
 ! 2022-11-30
