@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 03.14.23.1
+! Version: 03.16.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -189,7 +189,7 @@
 ~manga-bl.*##[href*="manga-bl.com"] > img
 ~anime-yaoi.*##[href*="anime-yaoi.com"] > img
 ~kuro-doujin.*##[href*="kuro-doujin."] > img
-!!filters (with punycode domain)
+!!filters (with IDN (punycode))
 ~xn--42c5aw3bxe1a.*##[href*="ดูคลิป."] > img
 ~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."] > img
 ~xn--83co4f.*##[href*="หำ."] > img
@@ -494,6 +494,10 @@ thaimanga.net##.ads
 toomtam-manga.com##.dessert-frame
 toomtam-manga.com###wbnn
 
+! rom-manga.com
+! 2023-03-10
+rom-manga.com##div#readerarea-loading:has(img[src$="/img/readerarea.svg"])
+
 ! popsmanga.com
 ! 2023-01-17
 popsmanga.com###wbnn
@@ -593,6 +597,7 @@ nekopost.net##div.card.bg-white.svelte-5e2uqe:has([id="remark42"] > iframe[src*=
 ! manga168.com
 ! 2022-11-30
 manga168.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
+manga168.com##div[id="readerarea"] > img.loaded:not([src$="/img/readerarea.svg"]):style(width: 100% !important; height: auto !important;)
 
 ! murim-manga.com
 ! 2022-11-30
