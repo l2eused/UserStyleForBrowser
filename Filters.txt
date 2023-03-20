@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 03.16.23.1
+! Version: 03.20.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -196,6 +196,8 @@
 ~xn--83co4f.*##[href*="xn--83co4f."] > img
 ~xn--82cxq1ixc.*##[href*="โดจิน."] > img
 ~xn--82cxq1ixc.*##[href*="xn--82cxq1ixc."] > img
+~xn--q3carx2bycyed2d.*##[href*="โอนลี่แฟน."] > img
+~xn--q3carx2bycyed2d.*##[href*="xn--q3carx2bycyed2d."] > img
 ~xn--168-3ml1b5dxa4a2i.*##[href*="อนิเมะ168."] > img
 ~xn--168-3ml1b5dxa4a2i.*##[href*="xn--168-3ml1b5dxa4a2i."] > img
 ~xn--168-illyhf9jb2s.*##[href*="ซีรีย์168."] > img
@@ -606,6 +608,10 @@ murim-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-co
 ! makimaaaaa.com
 ! 2023-01-17
 makimaaaaa.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
+
+! toomtam-manga.com
+! 2023-03-19
+toomtam-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 
 ! rh2plusmanga.com
 ! 2023-03-13
