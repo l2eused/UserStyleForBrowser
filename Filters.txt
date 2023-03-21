@@ -485,6 +485,10 @@ thaimanga.net##.ads
 ! 2023-01-21
 toomtam-manga.com##.dessert-frame
 toomtam-manga.com###wbnn
+! 2023-03-21
+||toomtam-manga.com/wp-content/uploads/2022/07/2-%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%81%E0%B8%82%E0%B9%87%E0%B8%87.webp^$image,domain=toomtam-manga.com
+toomtam-manga.com##html:style(background-color: black;)
+toomtam-manga.com##div#content:style(padding-bottom: 10px !important;)
 
 ! rom-manga.com
 ! 2023-03-10
