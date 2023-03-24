@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 03.21.23.1
+! Version: 03.24.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -176,6 +176,7 @@
 ##[href*="bit.ly/3xVB3Mw"]
 ##[href*="gclub-casino"]
 ##[href*="lin.ee/1ALiEXl"]
+##[href*="bit.ly/3TBBCFj"]
 
 ! self exclude (useful site maybe?)
 !!filters (template 1003)
@@ -421,6 +422,10 @@ manhwathailand.com###wbnn
 ! 2023-03-01
 tumblr_pe8dj1UNr71x8dkuto1_540.gif^$image,domain=manhwathailand.com
 manhwathailand.com##.content > .ads
+
+! spy-manga.com
+! 2023-03-24
+spy-manga.com###wbnn
 
 ! manga-sugoi.com
 ! 2022-12-06
