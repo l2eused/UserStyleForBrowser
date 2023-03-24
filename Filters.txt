@@ -563,7 +563,7 @@ meerkat-doujin.net##.wp-manga.c-top-sidebar.c-sidebar
 
 ! kuro-manga.com
 ! 2023-03-13
-www.kuro-manga.com##.c-top-sidebar.c-sidebar
+kuro-manga.com##.c-top-sidebar.c-sidebar
 
 ! nano-manga.com
 ! 2023-03-13
