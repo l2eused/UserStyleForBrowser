@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
-! Expires: 6 hours
-! Version: 03.24.23.1
+! Expires: 12 hours
+! Version: 03.30.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -177,6 +177,12 @@
 ##[href*="gclub-casino"]
 ##[href*="lin.ee/1ALiEXl"]
 ##[href*="bit.ly/3TBBCFj"]
+##[href*="bit.ly/404EnBo"]
+##[href*="imp789.com"]
+##[href*="rafa168.com"]
+##[href*="lin.ee/R0dSCrY"]
+##[href*="sexygame-992"]
+##[href*="pgslot-168"]
 
 ! self exclude (useful site maybe?)
 !!filters (template 1003)
@@ -457,6 +463,8 @@ toonhunter.com##.text-center.th-ban
 ! kumomanga.com
 ! 2023-02-06
 kumomanga.com##.wbnn-close
+! 2023-03-26
+kumomanga.net###wbnn
 
 ! mangadeemak.com
 ! 2022-12-21
@@ -544,6 +552,10 @@ ntr-manga.com##.header-ads-section
 nhentai.net##section.advt.advertisement.container
 nhentai.net##[href*="adtng.com"]
 
+! warps.club
+! 2023-03-28
+warps.club##div.justify-content-center.d-flex.mt-5:nth-of-type(2)
+
 ! hentaithai.com
 ! 2023-02-28
 hentaithai.com##div.col-12 > .card > .card-body > div[fb-iframe-plugin-query]
@@ -585,6 +597,12 @@ xn--72ca0fwcc.net##.slidtop
 ! nekopost.net
 ! 2023-03-01
 nekopost.net##div.card.bg-white.svelte-5e2uqe:has([id="remark42"] > iframe[src*="nekopost"]):style(background-color: rgb(228,231,240) !important;)
+! 2023-03-27
+nekopost.net##.text-center.justify-content-center.my-4
+
+! gamingdose.com
+! 2023-03-24
+gamingdose.com##.adv-link
 
 
 
@@ -659,7 +677,7 @@ nekopost.net##div.chapter-content.svelte-ixpqjn div.t-center.item-content > p.te
 ~facebook.*##[src*="facebook"][src*="plugins/like.php"]
 
 ! bookmark highlight
-god-doujin.com,toomtam-manga.com,toonhunter.com###menu-main.menu a[href$="/bookmark/"][itemprop="url"]:style(color: #f5a97f !important;)
+spy-manga.com,god-doujin.com,toomtam-manga.com,toonhunter.com###menu-main.menu a[href$="/bookmark/"][itemprop="url"]:style(color: #f5a97f !important;)
 manga168.com###menu-menu.menu a[href$="/bookmark/"][itemprop="url"]:style(color: #f5a97f !important;)
 
 ! color menu text
