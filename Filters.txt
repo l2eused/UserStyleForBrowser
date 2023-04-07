@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 12 hours
-! Version: 03.30.23.1
+! Version: 04.08.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -603,6 +603,8 @@ nekopost.net##.text-center.justify-content-center.my-4
 ! gamingdose.com
 ! 2023-03-24
 gamingdose.com##.adv-link
+! 2023-04-05
+gamingdose.com##.gamin-close-button
 
 
 
@@ -613,31 +615,17 @@ gamingdose.com##.adv-link
 ! enable if mobile
 !#if env_mobile
 
+! android swiper-container-android
+manga168.com,murim-manga.com,makimaaaaa.com,toomtam-manga.com,ped-manga.com,spy-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
+
 ! manga168.com
 ! 2022-11-30
-manga168.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 manga168.com##div[id="readerarea"] > img.loaded:not([src$="/img/readerarea.svg"]):style(width: 100% !important; height: auto !important;)
-
-! murim-manga.com
-! 2022-11-30
-murim-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
-
-! makimaaaaa.com
-! 2023-01-17
-makimaaaaa.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
-
-! toomtam-manga.com
-! 2023-03-19
-toomtam-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 
 ! rh2plusmanga.com
 ! 2023-03-13
 rh2plusmanga.com##.c-top-second-sidebar.c-sidebar:style(padding-bottom: 0px !important; padding-top: 0px !important;)
 rh2plusmanga.com##.widget_text.row div:has(iframe[src*="page.php"]):style(text-align: center !important;)
-
-! ped-manga.com
-! 2022-11-30
-ped-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 
 ! sing-manga.com
 ! 2023-02-26
