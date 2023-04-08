@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 12 hours
-! Version: 04.08.23.1
+! Version: 04.09.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -358,8 +358,6 @@ murim-manga.com###ads_fox_bottom
 ! inu-manga.com
 ! 2022-11-30
 inu-manga.com##.header-ads-section
-! 2023-03-08
-inu-manga.com##div.fb-comments
 
 ! mangauptocats.com
 ! 2022-11-30
@@ -632,6 +630,11 @@ rh2plusmanga.com##.widget_text.row div:has(iframe[src*="page.php"]):style(text-a
 sing-manga.com##span.mobilelogo:style(margin-top: 0px !important;)
 ! 2023-02-28
 sing-manga.com###menu-main.menu > li:has([class*="sub-menu"])
+
+! inu-manga.com
+! 2023-04-09
+inu-manga.com##div.fb-comments > span > iframe:style(background-color: white !important;)
+inu-manga.com##div.fb-comments:style(background: transparent !important;)
 
 ! kingsmanga.net
 ! 2023-02-27
