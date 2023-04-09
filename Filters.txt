@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 12 hours
-! Version: 04.09.23.1
+! Version: 04.10.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -183,6 +183,10 @@
 ##[href*="lin.ee/R0dSCrY"]
 ##[href*="sexygame-992"]
 ##[href*="pgslot-168"]
+##[href*="bit.ly/3nBo4Oh"]
+##[href*="bit.ly/3pg77slbn1"]
+##[href*="bit.ly/3JXckyF"]
+##[href*="bit.ly/3QzKPv2"]
 
 ! self exclude (useful site maybe?)
 !!filters (template 1003)
@@ -583,6 +587,11 @@ nano-manga.com##.wp-manga.c-top-sidebar.c-sidebar
 ! sing-manga.com
 ! 2023-02-26
 sing-manga.com##div.mt-20
+
+! kingsmanga.net
+! 2023-04-09
+kingsmanga.net##.new-kingsmanga-section
+kingsmanga.net##div#text-101.widget_text.widget > .textwidget
 
 ! asurahunter.com
 ! 2023-03-11
