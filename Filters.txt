@@ -89,6 +89,11 @@
 ##[href*="https://betflik"]
 ##[href*="http://betflik"]
 ##[href*="www.betflik"]
+##[href*="https://www.seolrea"]
+##[href*="http://www.seolrea"]
+##[href*="https://seolrea"]
+##[href*="http://seolrea"]
+##[href*="www.seolrea"]
 !!filters (end with) (template 1005)
 ##[href$=".bet"]
 ##[hrrf$=".bet/"]
@@ -187,6 +192,9 @@
 ##[href*="bit.ly/3pg77slbn1"]
 ##[href*="bit.ly/3JXckyF"]
 ##[href*="bit.ly/3QzKPv2"]
+##[href*="meyou147.com"]
+##[href*="lkk135.com"]
+##[href*="bit.ly/newvegas168-miku"]
 
 ! self exclude (useful site maybe?)
 !!filters (template 1003)
