@@ -631,9 +631,8 @@ gamingdose.com##.gamin-close-button
 ! android swiper-container-android
 manga168.com,murim-manga.com,makimaaaaa.com,toomtam-manga.com,ped-manga.com,spy-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 
-! manga168.com
-! 2022-11-30
-manga168.com##div[id="readerarea"] > img.loaded:not([src$="/img/readerarea.svg"]):style(width: 100% !important; height: auto !important;)
+! readerarea width fit to screen
+manga168.com,weimanga.com##div[id="readerarea"] > img.loaded:not([src$="/img/readerarea.svg"]):style(width: 100% !important; height: auto !important;)
 
 ! rh2plusmanga.com
 ! 2023-03-13
