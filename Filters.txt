@@ -620,6 +620,10 @@ gamingdose.com##.adv-link
 ! 2023-04-05
 gamingdose.com##.gamin-close-button
 
+! mangathailand.com
+! 2023-05-25
+mangathailand.com###ads-sticky
+
 
 
 ! --------------------------------- !
@@ -659,6 +663,12 @@ kingsmanga.net##.reader-content .post-content > img:style(width: 1000px !importa
 ! 2023-03-01
 nekopost.net##div.layout-helper.svelte-ixpqjn button:style(width: 35px !important; height: 35px !important; padding: 0px !important;)
 nekopost.net##div.chapter-content.svelte-ixpqjn div.t-center.item-content > p.text-page.text-center.svelte-ixpqjn:style(margin-bottom: 10px !important; font-size: 16px !important; color: #9295A4 !important;)
+
+! mangathailand.com
+! 2023-05-26
+mangathailand.com##.elementor-location-footer.elementor-1940.elementor
+mangathailand.com##.elementor-sticky.elementor-section-height-default.elementor-section-boxed.elementor-element-7f5e326.elementor-element.elementor-top-section.elementor-section
+mangathailand.com##.e-con-inner
 
 ! ending if mobile
 !#endif
