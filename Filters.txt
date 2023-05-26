@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 12 hours
-! Version: 05.26.23.1
+! Version: 05.26.23.2
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -390,6 +390,8 @@ makimaaaaa.com##.kln.mlb.blox
 ! สดใสเมะ.com xn--l3c0azab5a2gta.com
 ! 2022-11-30
 xn--l3c0azab5a2gta.com##.ads
+! 2023-05-26
+xn--l3c0azab5a2gta.com##.fb_iframe_widget_lift:style(width: 100% !important;)
 
 ! catzaa.com
 ! 2022-11-30
@@ -623,6 +625,10 @@ gamingdose.com##.gamin-close-button
 ! mangathailand.com
 ! 2023-05-25
 mangathailand.com###ads-sticky
+
+! youweissman.blogspot.com
+! 2023-04-21
+||a1.afterway.ga/^$subdocument,domain=youweissman.blogspot.com
 
 
 
