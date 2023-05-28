@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 12 hours
-! Version: 05.28.23.1
+! Version: 05.28.23.2
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -365,7 +365,6 @@ murim-manga.com###ads_fox_bottom
 ! inu-manga.com
 ! 2022-11-30
 inu-manga.com##.header-ads-section
-inu-manga.com##.fb_iframe_widget_lift:style(width: 100% !important;)
 
 ! mangauptocats.com
 ! 2022-11-30
@@ -387,8 +386,6 @@ makimaaaaa.com##.kln.mlb.blox
 ! สดใสเมะ.com xn--l3c0azab5a2gta.com
 ! 2022-11-30
 xn--l3c0azab5a2gta.com##.ads
-! 2023-05-26
-xn--l3c0azab5a2gta.com##.fb_iframe_widget_lift:style(width: 100% !important;)
 
 ! catzaa.com
 ! 2022-11-30
@@ -426,7 +423,6 @@ manhuakey.com##.ads-float
 
 ! rh2plusmanga.com
 ! 2023-03-13
-rh2plusmanga.com##div.profile-manga:style(background-image: none !important; background-color: transparent !important;)
 ||rh2plusmanga.com/wp-content/uploads/*/bg-search.jpg^$image,domain=rh2plusmanga.com
 rh2plusmanga.com##.c-top-sidebar.c-sidebar
 
@@ -508,8 +504,6 @@ toomtam-manga.com##.dessert-frame
 toomtam-manga.com###wbnn
 ! 2023-03-21
 ||toomtam-manga.com/wp-content/uploads/2022/07/2-%E0%B8%A1%E0%B8%B5%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B9%81%E0%B8%82%E0%B9%87%E0%B8%87.webp^$image,domain=toomtam-manga.com
-toomtam-manga.com##html:style(background-color: black;)
-toomtam-manga.com##div#content:style(padding-bottom: 10px !important;)
 
 ! rom-manga.com
 ! 2023-03-10
@@ -549,7 +543,6 @@ happymanga.net###bottom_center_ads
 ! 2022-11-30
 miku-doujin.com##.mb-3.text-center.container
 miku-doujin.com##.card-body > .mb-3.text-center
-miku-doujin.com##html:style(background-color: black !important;)
 
 ! ntr-manga.com
 ! 2022-11-30
@@ -608,8 +601,6 @@ asurahunter.com##.slidtop
 xn--72ca0fwcc.net##.slidtop
 
 ! nekopost.net
-! 2023-03-01
-nekopost.net##div.card.bg-white.svelte-5e2uqe:has([id="remark42"] > iframe[src*="nekopost"]):style(background-color: rgb(228,231,240) !important;)
 ! 2023-03-27
 nekopost.net##.text-center.justify-content-center.my-4
 
@@ -694,13 +685,6 @@ mangathailand.com##.e-con-inner
 
 ! social button
 ~facebook.*##[src*="facebook"][src*="plugins/like.php"]
-
-! bookmark highlight
-spy-manga.com,god-doujin.com,toomtam-manga.com,toonhunter.com###menu-main.menu a[href$="/bookmark/"][itemprop="url"]:style(color: #f5a97f !important;)
-manga168.com###menu-menu.menu a[href$="/bookmark/"][itemprop="url"]:style(color: #f5a97f !important;)
-
-! color menu text
-inu-manga.com,xn--l3c0azab5a2gta.com##.menu [href] > span:style(color: lavender;)
 
 ! manga168.com / weimanga.com
 !!adguard base filters issue (blocked some image cover)
