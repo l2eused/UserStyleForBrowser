@@ -369,6 +369,7 @@ murim-manga.com###ads_fox_bottom
 ! inu-manga.com
 ! 2022-11-30
 inu-manga.com##.header-ads-section
+inu-manga.com##.fb_iframe_widget_lift:style(width: 100% !important;)
 
 ! mangauptocats.com
 ! 2022-11-30
