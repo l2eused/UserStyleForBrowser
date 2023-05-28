@@ -7,16 +7,23 @@
 @author Noname
 ==/UserStyle== */
 
+
+
 /* ------------------------- */
 /* ----- Custom Styles ----- */
 /* ------------------------- */
 
+/* inu-manga.com */
 @-moz-document domain("inu-manga.com") {
   .r.npv > .nextprev > *:not(:active,:hover) {
     color: rgb(22, 21, 29) !important;
   }
+  .fb_iframe_widget_lift {
+    width: 100% !important;
+  }
 }
 
+/* manga168.com */
 @-moz-document domain("manga168.com") {
   div#content:not([class]) {
     margin-top: 10px !important;
@@ -27,5 +34,69 @@
   }
   div#footer {
     margin-top: 0px !important;
+  }
+}
+
+/* สดใสเมะ.com xn--l3c0azab5a2gta.com */
+@-moz-document domain("xn--l3c0azab5a2gta.com") {
+  .fb_iframe_widget_lift {
+    width: 100% !important;
+  }
+}
+
+/* rh2plusmanga.com */
+@-moz-document domain("rh2plusmanga.com") {
+  div.profile-manga {
+    background-image: none !important;
+    background-color: transparent !important;
+  }
+}
+
+/* toomtam-manga.com */
+@-moz-document domain("toomtam-manga.com") {
+  html {
+    background-color: black;
+  }
+  div#content {
+    padding-bottom: 10px !important;
+  }
+}
+
+/* miku-doujin.com */
+@-moz-document domain("miku-doujin.com") {
+  html {
+    background-color: black !important;
+  }
+}
+
+/* nekopost.net */
+@-moz-document domain("nekopost.net") {
+  div.card.bg-white.svelte-5e2uqe:has([id="remark42"] > iframe[src*="nekopost"]) {
+    background-color: rgb(228,231,240) !important;
+  }
+}
+
+
+
+/* ------------------------ */
+/* ----- Other Styles ----- */
+/* ------------------------ */
+
+/* bookmark highlight */
+@-moz-document domain("spy-manga.com,god-doujin.com,toomtam-manga.com,toonhunter.com") {
+  #menu-main.menu a[href$="/bookmark/"][itemprop="url"] {
+    color: #f5a97f !important;
+  }
+}
+@-moz-document domain("manga168.com") {
+  #menu-menu.menu a[href$="/bookmark/"][itemprop="url"] {
+    color: #f5a97f !important;
+  }
+}
+
+/* color menu text */
+@-moz-document domain("inu-manga.com,xn--l3c0azab5a2gta.com") {
+  .menu [href] > span {
+    color: lavender;
   }
 }
