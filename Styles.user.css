@@ -2,15 +2,21 @@
 @name UserStyle (Noname)
 @namespace github.com/Nonanne/AdsBlock
 @homepageURL https://github.com/Nonanne/AdsBlock
-@version 1.0.1
+@version 05.28.23.1
 @description work in progress....
 @author Noname
 ==/UserStyle== */
+
+/* ------------------------- */
+/* ----- Custom Styles ----- */
+/* ------------------------- */
+
 @-moz-document domain("inu-manga.com") {
   .r.npv > .nextprev > *:not(:active,:hover) {
     color: rgb(22, 21, 29) !important;
   }
 }
+
 @-moz-document domain("manga168.com") {
   div#content:not([class]) {
     margin-top: 10px !important;
