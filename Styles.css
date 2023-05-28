@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name UserStyle (Noname)
+@namespace github.com/Nonanne/AdsBlock
+@homepageURL https://github.com/Nonanne/AdsBlock
+@version 0.0 1
+@description work in progress....
+@developer Noname
+==/UserStyle== */
+@-moz-document domain("inu-manga.com") {
+  .r.npv > .nextprev > *:not(:active,:hover) {
+    color: rgb(22, 21, 29) !important;
+  }
+}
