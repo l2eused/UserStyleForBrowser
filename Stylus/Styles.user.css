@@ -83,7 +83,10 @@
 /* ------------------------ */
 
 /* bookmark highlight */
-@-moz-document domain("spy-manga.com"),domain("god-doujin.com"),domain("toomtam-manga.com"),domain("toonhunter.com") {
+@-moz-document domain("spy-manga.com"),
+domain("god-doujin.com"),
+domain("toomtam-manga.com"),
+domain("toonhunter.com") {
   #menu-main.menu a[href$="/bookmark/"][itemprop="url"] {
     color: #f5a97f !important;
   }
@@ -95,7 +98,8 @@
 }
 
 /* color menu text */
-@-moz-document domain("inu-manga.com"),domain("xn--l3c0azab5a2gta.com") {
+@-moz-document domain("inu-manga.com"),
+domain("xn--l3c0azab5a2gta.com") {
   .menu [href] > span {
     color: lavender;
   }
