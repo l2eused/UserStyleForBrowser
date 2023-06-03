@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 12 hours
-! Version: 05.28.23.3
+! Version: 06.03.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -630,33 +630,9 @@ mangathailand.com###ads-sticky
 ! android swiper-container-android
 manga168.com,murim-manga.com,makimaaaaa.com,toomtam-manga.com,ped-manga.com,spy-manga.com##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.swiper-container.big-slider
 
-! readerarea width fit to screen
-manga168.com,weimanga.com##div[id="readerarea"] > img.loaded:not([src$="/img/readerarea.svg"]):style(width: 100% !important; height: auto !important;)
-
-! rh2plusmanga.com
-! 2023-03-13
-rh2plusmanga.com##.c-top-second-sidebar.c-sidebar:style(padding-bottom: 0px !important; padding-top: 0px !important;)
-rh2plusmanga.com##.widget_text.row div:has(iframe[src*="page.php"]):style(text-align: center !important;)
-
 ! sing-manga.com
-! 2023-02-26
-sing-manga.com##span.mobilelogo:style(margin-top: 0px !important;)
 ! 2023-02-28
 sing-manga.com###menu-main.menu > li:has([class*="sub-menu"])
-
-! inu-manga.com
-! 2023-04-09
-inu-manga.com##div.fb-comments > span > iframe:style(background-color: white !important;)
-inu-manga.com##div.fb-comments:style(background: transparent !important;)
-
-! kingsmanga.net
-! 2023-02-27
-kingsmanga.net##.reader-content .post-content > img:style(width: 1000px !important; height: auto !important;)
-
-! nekopost.net
-! 2023-03-01
-nekopost.net##div.layout-helper.svelte-ixpqjn button:style(width: 35px !important; height: 35px !important; padding: 0px !important;)
-nekopost.net##div.chapter-content.svelte-ixpqjn div.t-center.item-content > p.text-page.text-center.svelte-ixpqjn:style(margin-bottom: 10px !important; font-size: 16px !important; color: #9295A4 !important;)
 
 ! mangathailand.com
 ! 2023-05-26
