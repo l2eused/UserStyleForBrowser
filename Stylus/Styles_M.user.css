@@ -1,0 +1,79 @@
+/* ==UserStyle==
+@name UserStyle Mobile (Noname)
+@namespace github.com/Nonanne/AdsBlock
+@homepageURL https://github.com/Nonanne/AdsBlock
+@version 06.03.23.1
+@description work in progress....
+@author Noname
+==/UserStyle== */
+
+
+
+/* ------------------------- */
+/* ----- Custom Styles ----- */
+/* ------------------------- */
+
+/* rh2plusmanga.com */
+@-moz-document domain("rh2plusmanga.com") {
+  .c-top-second-sidebar.c-sidebar {
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+  }
+  .widget_text.row div:has(iframe[src*="page.php"]) {
+    text-align: center !important;
+  }
+}
+
+/* sing-manga.com */
+@-moz-document domain("sing-manga.com") {
+  span.mobilelogo {
+    margin-top: 0px !important;
+  }
+}
+
+/* inu-manga.com */
+@-moz-document domain("inu-manga.com") {
+  div.fb-comments > span > iframe {
+    background-color: white !important;
+  }
+  div.fb-comments {
+    background: transparent !important;
+  }
+}
+
+/* kingsmanga.net */
+@-moz-document domain("kingsmanga.net") {
+  .reader-content .post-content > img {
+    width: 1000px !important;
+    height: auto !important;
+  }
+}
+
+/* nekopost.net */
+@-moz-document domain("nekopost.net") {
+  div.layout-helper.svelte-ixpqjn button {
+    width: 35px !important;
+    height: 35px !important;
+    padding: 0px !important;
+  }
+  div.chapter-content.svelte-ixpqjn div.t-center.item-content > p.text-page.text-center.svelte-ixpqjn {
+    margin-bottom: 10px !important;
+    font-size: 16px !important;
+    color: #9295A4 !important;
+  }
+}
+
+
+
+/* ------------------------ */
+/* ----- Other Styles ----- */
+/* ------------------------ */
+
+/* readerarea width fit to screen */
+@-moz-document domain("manga168.com"),
+domain("weimanga.com") {
+  div[id="readerarea"] > img.loaded:not([src$="/img/readerarea.svg"]) {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
