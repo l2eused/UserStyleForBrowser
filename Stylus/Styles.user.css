@@ -42,6 +42,9 @@
   .fb_iframe_widget_lift {
     width: 100% !important;
   }
+  .r.npv > .nextprev > *:not(:active,:hover) {
+    color: rgb(22, 21, 29) !important;
+  }
 }
 
 /* rh2plusmanga.com */
