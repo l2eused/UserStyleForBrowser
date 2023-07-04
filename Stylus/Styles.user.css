@@ -2,7 +2,7 @@
 @name UserStyle (Noname)
 @namespace github.com/Nonanne/AdsBlock
 @homepageURL https://github.com/Nonanne/AdsBlock
-@version 06.10.23.1
+@version 07.05.23.1
 @description work in progress....
 @author Noname
 ==/UserStyle== */
@@ -16,6 +16,9 @@
 /* inu-manga.com */
 @-moz-document domain("inu-manga.com") {
   .r.npv > .nextprev > *:not(:active,:hover) {
+    color: rgb(22, 21, 29) !important;
+  }
+  .scrollToTop {
     color: rgb(22, 21, 29) !important;
   }
   .fb_iframe_widget_lift {
