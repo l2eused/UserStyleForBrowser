@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 12 hours
-! Version: 07.06.23.1
+! Version: 07.18.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -196,6 +196,7 @@
 ##[href*="azure.csuci.edu"]
 ##[href*="hapilabs.com"]
 ##[href*="e15initiative.org"]
+##[href*="@huayaun2"]
 
 ! self exclude (useful site maybe?)
 !!filters (template 1003)
@@ -615,6 +616,10 @@ gamingdose.com##.gamin-close-button
 ! mangathailand.com
 ! 2023-05-25
 mangathailand.com###ads-sticky
+
+! novel-lucky.com
+! 2023-07-18
+novel-lucky.com##.floating_content_close_button
 
 ! youweissman.blogspot.com
 ! 2023-04-21
