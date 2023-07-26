@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 12 hours
-! Version: 07.18.23.1
+! Version: 07.26.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -210,6 +210,8 @@
 ~manga-bl.*##[href*="manga-bl.com"] > img
 ~anime-yaoi.*##[href*="anime-yaoi.com"] > img
 ~kuro-doujin.*##[href*="kuro-doujin."] > img
+~necromanga.*##[href*="necromanga."] > img
+~manga-i.*##[href*="manga-i."] > img
 !!filters (with IDN (punycode))
 ~xn--42c5aw3bxe1a.*##[href*="ดูคลิป."] > img
 ~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."] > img
