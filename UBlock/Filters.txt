@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 12 hours
-! Version: 07.26.23.1
+! Version: 08.16.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -566,9 +566,10 @@ warps.club##div.justify-content-center.d-flex.mt-5:nth-of-type(2)
 ! 2023-02-28
 hentaithai.com##div.col-12 > .card > .card-body > div[fb-iframe-plugin-query]
 hentaithai.com##.container > div > div.row:nth-of-type(2)
-hentaithai.com##.col-md-3.col-12 > div.row:nth-of-type(3)
-hentaithai.com##.container > div > div.row:nth-of-type(4) > div.col-12.col-md-3
-hentaithai.com##div.col-12.col-md-9 > div.row > div.col-12 > br
+! 2023-08-16
+||hentaithai.com/nb/h-be3.php^$script,1p
+||hentaithai.com/banner/main_side_*.html$subdocument,1p
+||hentaithai.com/banner/topic_side_*.html$subdocument,1p
 
 ! hentaithai.net
 ! 2023-02-28
