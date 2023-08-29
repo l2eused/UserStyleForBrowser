@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 12 hours
-! Version: 08.16.23.2
+! Version: 08.29.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -94,6 +94,11 @@
 ##[href*="https://seolrea"]
 ##[href*="http://seolrea"]
 ##[href*="www.seolrea"]
+##[href*="https://www.bacarat"]
+##[href*="http://www.bacarat"]
+##[href*="https://bacarat"]
+##[href*="http://bacarat"]
+##[href*="www.bacarat"]
 !!filters (end with) (template 1005)
 ##[href$=".bet"]
 ##[hrrf$=".bet/"]
@@ -197,6 +202,8 @@
 ##[href*="hapilabs.com"]
 ##[href*="e15initiative.org"]
 ##[href*="@huayaun2"]
+##[href*="bit.ly/3Qr5Ifd"]
+##[href*="kaimanakab.go.id"]
 
 ! self exclude (useful site maybe?)
 !!filters (template 1003)
