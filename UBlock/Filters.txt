@@ -204,6 +204,8 @@
 ##[href*="@huayaun2"]
 ##[href*="bit.ly/3Qr5Ifd"]
 ##[href*="kaimanakab.go.id"]
+##[href*="เว็บตรง-สล็อต"]
+##[href*="xn----5wf5bcv9cqk6a5a4r7ch"]
 
 ! self exclude (useful site maybe?)
 !!filters (template 1003)
