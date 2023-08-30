@@ -204,6 +204,7 @@
 ##[href*="@huayaun2"]
 ##[href*="bit.ly/3Qr5Ifd"]
 ##[href*="kaimanakab.go.id"]
+!!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
 ##[href*="xn----5wf5bcv9cqk6a5a4r7ch"]
 
