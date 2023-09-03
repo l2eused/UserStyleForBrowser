@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
-! Expires: 12 hours
-! Version: 09.01.23.1
+! Expires: 6 hours
+! Version: 09.04.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -13,6 +13,7 @@
 ! ------------------------------ !
 
 ! generic cosmetic
+!
 !!filters (start with) (template 1001)
 ##[href*="https://www.ufa"]
 ##[href*="http://www.ufa"]
@@ -99,15 +100,19 @@
 ##[href*="https://bacarat"]
 ##[href*="http://bacarat"]
 ##[href*="www.bacarat"]
+!
 !!filters (end with) (template 1005)
 ##[href$=".bet"]
-##[hrrf$=".bet/"]
+##[href$=".bet/"]
 ##[href$=".game"]
-##[hrrf$=".game/"]
+##[href$=".game/"]
 ##[href$=".vip"]
-##[hrrf$=".vip/"]
+##[href$=".vip/"]
+##[href$=".casino"]
+##[href$=".casino/"]
 
 ! generic cosmetic (strict domain)
+!
 !!filters (template 1002)
 ##[href*="huc33."]
 ##[href*="ufanance"]
@@ -207,11 +212,13 @@
 ##[href*="bit.ly/3Kwthzl"]
 ##[href*="kpth168.com"]
 ##[href*="bit.ly/Slot-xo-online"]
+!
 !!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
 ##[href*="xn----5wf5bcv9cqk6a5a4r7ch"]
 
 ! self exclude (useful site maybe?)
+!
 !!filters (template 1003)
 ~av-subthai.*##[href*="av-subthai."] > img
 ~ped-doujin.*##[href*="ped-doujin."] > img
@@ -227,6 +234,7 @@
 ~manga-i.*##[href*="manga-i."] > img
 ~neko-hentai.*##[href*="neko-hentai."] > img
 ~aki-h.*##[href*="aki-h."] > img
+!
 !!filters (with IDN (punycode))
 ~xn--42c5aw3bxe1a.*##[href*="ดูคลิป."] > img
 ~xn--42c5aw3bxe1a.*##[href*="xn--42c5aw3bxe1a."] > img
@@ -242,6 +250,7 @@
 ~xn--168-illyhf9jb2s.*##[href*="xn--168-illyhf9jb2s."] > img
 
 ! import filters (and edit) by others
+!
 !!credits: https://github.com/Faelayis/adblock-thai-filters
 ##[href*="ufac4"]
 ##[href*="huc99."]
@@ -689,10 +698,12 @@ mangathailand.com##.e-con-inner
 ~facebook.*##[src*="facebook"][src*="plugins/like.php"]
 
 ! manga168.com / weimanga.com
+!
 !!adguard base filters issue (blocked some image cover)
 @@/*.gif^$domain=weimanga.com|manga168.com,image
 
 ! manga168.com
+!
 !!adguard base filters issue
 manga168.com#@#center > a[target="_blank"] > img
 
@@ -701,22 +712,6 @@ manga168.com#@#center > a[target="_blank"] > img
 ! ----------------------- !
 ! ----- Non Filters ----- !
 ! ----------------------- !
-
-! others cool filters that I recommend
-https://github.com/yous/YousList/raw/master/youslist.txt
-https://github.com/DandelionSprout/adfilt/blob/master/LegitimateURLShortener.txt
-https://filters.adtidy.org/extension/ublock/filters/3.txt
-https://raw.gitubusercontent.com/Faelayis/AdBlock-Thai-Filters/master/filters/ads.txt
-https://raw.githubusercontent.com/Faelayis/AdBlock-Thai-Filters/master/filters/banner.txt
-https://raw.githubusercontent.com/DandelionSprout/adfilt/master/ClearURLs%20for%20uBo/clear_urls_uboified.txt
-https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt
-https://adblock-thai.github.io/thai-ads-filter/subscription.txt
-https://raw.githubusercontent.com/kowith337/ThaiParanoidBlock/master/ThaiParanoid.txt
-https://raw.githubusercontent.com/pixeltris/TwitchAdSolutions/bc355dda0ae98e142577e8521ad1857ccdb3b724/video-swap-new/video-swap-new-ublock-origin.js
-https://filters.adavoid.org/ultimate-ad-filter.txt
-https://filters.adavoid.org/ultimate-privacy-filter.txt
-https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt
-https://filters.adavoid.org/ultimate-security-filter.txt
 
 
 
