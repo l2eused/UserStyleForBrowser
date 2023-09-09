@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (Noname)
 ! Expires: 6 hours
-! Version: 09.08.23.1
+! Version: 09.09.23.1
 ! Homepage: https://github.com/Nonanne/AdsBlock
 ! Developer: Noname
 ! Detail: work in progress....
@@ -213,10 +213,16 @@
 ##[href*="kpth168.com"]
 ##[href*="bit.ly/Slot-xo-online"]
 ##[href*="nashvillelgbtchamber.org"]
+##[href*="1slotx.sgp1.cdn."]
+##[href*="ondigitalocean.app"]
 !
 !!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
 ##[href*="xn----5wf5bcv9cqk6a5a4r7ch"]
+!
+!!filters (end with) (template 1005)
+##[href$="/1slot/index.html"]
+##[href$="/1slot/index.html/"]
 
 ! self exclude (useful site maybe?)
 !
