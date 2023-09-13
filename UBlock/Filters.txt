@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Title: AdsBlock (Noname)
+! Title: AdsBlock (l2eused)
 ! Expires: 6 hours
-! Version: 09.09.23.1
-! Homepage: https://github.com/Nonanne/AdsBlock
-! Developer: Noname
+! Version: 09.13.23.1
+! Homepage: https://github.com/l2eused/UserStyleForBrowser
+! Developer: l2eused
 ! Detail: work in progress....
 
 
