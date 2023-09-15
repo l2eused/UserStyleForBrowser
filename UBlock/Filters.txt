@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (l2eused)
 ! Expires: 6 hours
-! Version: 09.13.23.1
+! Version: 09.15.23.1
 ! Homepage: https://github.com/l2eused/UserStyleForBrowser
 ! Developer: l2eused
 ! Detail: work in progress....
@@ -215,6 +215,8 @@
 ##[href*="nashvillelgbtchamber.org"]
 ##[href*="1slotx.sgp1.cdn."]
 ##[href*="ondigitalocean.app"]
+##[href*="brunochiefofpolice.com"]
+##[href*="gclub321.com"]
 !
 !!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
@@ -401,18 +403,6 @@ murim-manga.com###ads_fox_bottom
 ! inu-manga.com
 ! 2022-11-30
 inu-manga.com##.header-ads-section
-
-! mangauptocats.com
-! 2022-11-30
-mangauptocats.com##.widget_custom_html.heading-style-1.no-icon.default.col-md-12.col-12.widget.widget_text
-mangauptocats.com##.floating_content_1
-mangauptocats.com##[id*="upcat_ads"]
-
-! manga-uptocats.com
-! 2023-01-16
-manga-uptocats.com##.floating_content
-manga-uptocats.com##[id*="upcat_ads"]
-manga-uptocats.com##.wp-manga.c-top-sidebar.c-sidebar
 
 ! makimaaaaa.com
 ! 2023-01-17
