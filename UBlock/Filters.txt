@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (l2eused)
 ! Expires: 6 hours
-! Version: 09.24.23.1
+! Version: 09.26.23.1
 ! Homepage: https://github.com/l2eused/UserStyleForBrowser
 ! Developer: l2eused
 ! Detail: work in progress....
@@ -100,6 +100,11 @@
 ##[href*="https://bacarat"]
 ##[href*="http://bacarat"]
 ##[href*="www.bacarat"]
+##[href*="https://www.pgslot"]
+##[href*="http://www.pgslot"]
+##[href*="https://pgslot"]
+##[href*="http://pgslot"]
+##[href*="www.pgslot"]
 !
 !!filters (end with) (template 1005)
 ##[href$=".bet"]
@@ -110,6 +115,8 @@
 ##[href$=".vip/"]
 ##[href$=".casino"]
 ##[href$=".casino/"]
+##[href$="/1slot/index.html"]
+##[href$="/1slot/index.html/"]
 
 ! generic cosmetic (strict domain)
 !
@@ -151,7 +158,7 @@
 ##[href*="lotto432s"]
 ##[href*="newyork888s"]
 ##[href*="ufa1913"]
-##[href*="sexygame1688s"]
+##[href*="sexygame168"]
 ##[href*="vip168sa2"]
 ##[href*="ssgame6662"]
 ##[href*="ssgame6661"]
@@ -180,7 +187,7 @@
 ##[href*="thais.bet"]
 ##[href*="lvslot"]
 ##[href*="meyou147."]
-##[href*="bit.ly/newvegas168"]
+##[href*="newvegas168"]
 ##[href*="lucky135"]
 ##[href*="512xiaojin"] 
 ##[href*="betflixcasino"]
@@ -218,14 +225,15 @@
 ##[href*="brunochiefofpolice.com"]
 ##[href*="gclub321.com"]
 ##[href*="boston777"]
+##[href*="jaopg.net"]
+##[href*="lin.ee/SCQORdf"]
+##[href*="pgslot."]
+##[href*="lukwin88."]
+##[href*="hilo-88."]
 !
 !!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
 ##[href*="xn----5wf5bcv9cqk6a5a4r7ch"]
-!
-!!filters (end with) (template 1005)
-##[href$="/1slot/index.html"]
-##[href$="/1slot/index.html/"]
 
 ! self exclude (useful site maybe?)
 !
