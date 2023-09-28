@@ -223,6 +223,7 @@
 ##[href*="1slotx.sgp1.cdn."]
 ##[href*="ondigitalocean.app"]
 ##[href*="brunochiefofpolice.com"]
+##[href*="digitaloceanspaces.com"]
 ##[href*="gclub321.com"]
 ##[href*="boston777"]
 ##[href*="jaopg.net"]
