@@ -2,19 +2,21 @@
 @name UserStyle (l2eused)
 @namespace github.com/l2eused/UserStyleForBrowser
 @homepageURL https://github.com/l2eused/UserStyleForBrowser
-@version 09.13.23.1
+@version 10.12.23.1
 @description work in progress....
 @author l2eused
 ==/UserStyle== */
 
 
 
-/* ------------------------- */
-/* ----- Custom Styles ----- */
-/* ------------------------- */
+/*================
+   Custom Styles
+==================
+/**/
 
-/* inu-manga.com */
-@-moz-document domain("inu-manga.com") {
+@-moz-document
+domain("inu-manga.com") {
+  /* inu-manga.com */
   .r.npv > .nextprev > *:not(:active,:hover) {
     color: rgb(22, 21, 29) !important;
   }
@@ -29,8 +31,9 @@
   }
 }
 
-/* manga168.com */
-@-moz-document domain("manga168.com") {
+@-moz-document
+domain("manga168.com") {
+  /* manga168.com */
   div#content:not([class]) {
     margin-top: 10px !important;
     padding-bottom: 10px !important;
@@ -43,8 +46,9 @@
   }
 }
 
-/* สดใสเมะ.com xn--l3c0azab5a2gta.com */
-@-moz-document domain("xn--l3c0azab5a2gta.com") {
+@-moz-document
+domain("xn--l3c0azab5a2gta.com") {
+  /* สดใสเมะ.com xn--l3c0azab5a2gta.com */
   .fb_iframe_widget_lift {
     width: 100% !important;
   }
@@ -53,16 +57,18 @@
   }
 }
 
-/* rh2plusmanga.com */
-@-moz-document domain("rh2plusmanga.com") {
+@-moz-document
+domain("rh2plusmanga.com") {
+  /* rh2plusmanga.com */
   div.profile-manga {
     background-image: none !important;
     background-color: transparent !important;
   }
 }
 
-/* toomtam-manga.com */
-@-moz-document domain("toomtam-manga.com") {
+@-moz-document
+domain("toomtam-manga.com") {
+  /* toomtam-manga.com */
   html {
     background-color: black;
   }
@@ -71,15 +77,17 @@
   }
 }
 
-/* miku-doujin.com */
-@-moz-document domain("miku-doujin.com") {
+@-moz-document
+domain("miku-doujin.com") {
+  /* miku-doujin.com */
   html {
     background-color: black !important;
   }
 }
 
-/* nekopost.net */
-@-moz-document domain("nekopost.net") {
+@-moz-document
+domain("nekopost.net") {
+  /* nekopost.net */
   div.card.bg-white.svelte-5e2uqe:has([id="remark42"] > iframe[src*="nekopost"]) {
     background-color: rgb(228,231,240) !important;
   }
@@ -87,28 +95,32 @@
 
 
 
-/* ------------------------ */
-/* ----- Other Styles ----- */
-/* ------------------------ */
+/*===============
+   Other Styles
+=================
+/**/
 
-/* bookmark highlight */
-@-moz-document domain("spy-manga.com"),
+@-moz-document
+domain("spy-manga.com"),
 domain("god-doujin.com"),
 domain("toomtam-manga.com"),
 domain("toonhunter.com") {
+  /* bookmark highlight */
   #menu-main.menu a[href$="/bookmark/"][itemprop="url"] {
     color: #f5a97f !important;
   }
 }
-@-moz-document domain("manga168.com") {
+@-moz-document
+domain("manga168.com") {
   #menu-menu.menu a[href$="/bookmark/"][itemprop="url"] {
     color: #f5a97f !important;
   }
 }
 
-/* color menu text */
-@-moz-document domain("inu-manga.com"),
+@-moz-document
+domain("inu-manga.com"),
 domain("xn--l3c0azab5a2gta.com") {
+  /* color menu text */
   .menu [href] > span {
     color: lavender;
   }
