@@ -1,20 +1,20 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (l2eused)
 ! Expires: 6 hours
-! Version: 10.02.23.1
+! Version: 10.12.23.1
 ! Homepage: https://github.com/l2eused/UserStyleForBrowser
 ! Developer: l2eused
 ! Detail: work in progress....
 
 
 
-! ------------------------------ !
-! ----- General Ads Banner ----- !
-! ------------------------------ !
+!====================
+! General Ads Banner
+!====================
 
 ! generic cosmetic
 !
-!!filters (start with) (template 1001)
+!!filters (start with)
 ##[href*="https://www.ufa"]
 ##[href*="http://www.ufa"]
 ##[href*="https://ufa"]
@@ -106,7 +106,7 @@
 ##[href*="http://pgslot"]
 ##[href*="www.pgslot"]
 !
-!!filters (end with) (template 1005)
+!!filters (end with)
 ##[href$=".bet"]
 ##[href$=".bet/"]
 ##[href$=".game"]
@@ -120,7 +120,7 @@
 
 ! generic cosmetic (strict domain)
 !
-!!filters (template 1002)
+!!filters
 ##[href*="huc33."]
 ##[href*="ufanance"]
 ##[href*="ssgame561"]
@@ -246,7 +246,7 @@
 
 ! self exclude (useful site maybe?)
 !
-!!filters (template 1003)
+!!filters
 ~av-subthai.*##[href*="av-subthai."] > img
 ~ped-doujin.*##[href*="ped-doujin."] > img
 ~hentai168.*##[href*="hentai168."] > img
@@ -388,9 +388,9 @@
 
 
 
-! -------------------------- !
-! ----- Custom Filters ----- !
-! -------------------------- !
+!=================
+! Custom Filters
+!=================
 
 ! newtoki / manatoki
 ! 2023-03-11
@@ -670,9 +670,9 @@ novel-lucky.com##.floating_content_close_button
 
 
 
-! --------------------------------- !
-! ----- Mobile Custom Filters ----- !
-! --------------------------------- !
+!========================
+! Mobile Custom Filters
+!========================
 
 ! enable if mobile
 !#if env_mobile
@@ -695,9 +695,9 @@ mangathailand.com##.e-con-inner
 
 
 
-! ------------------------- !
-! ----- Other Filters ----- !
-! ------------------------- !
+!================
+! Other Filters
+!================
 
 ! social share button
 ~facebook.*##[href*="facebook.com/sharer"]
@@ -724,15 +724,15 @@ manga168.com#@#center > a[target="_blank"] > img
 
 
 
-! ----------------------- !
-! ----- Non Filters ----- !
-! ----------------------- !
+!==============
+! Non Filters
+!==============
 
 
 
-! ----------------------------- !
-! ----- AdsBlock (Noname) ----- !
-! ----------------------------- !
-
+!======================
+! AdsBlock (Noname)
+!----------------------
 ! stay safe.
 ! together forever 💙
+!======================
