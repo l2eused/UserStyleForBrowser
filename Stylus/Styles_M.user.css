@@ -2,19 +2,21 @@
 @name UserStyle Mobile (l2eused)
 @namespace github.com/l2eused/UserStyleForBrowser
 @homepageURL https://github.com/l2eused/UserStyleForBrowser
-@version 09.13.23.1
+@version 10.12.23.1
 @description work in progress....
 @author l2eused
 ==/UserStyle== */
 
 
 
-/* ------------------------- */
-/* ----- Custom Styles ----- */
-/* ------------------------- */
+/*================
+   Custom Styles
+==================
+/**/
 
-/* rh2plusmanga.com */
-@-moz-document domain("rh2plusmanga.com") {
+@-moz-document
+domain("rh2plusmanga.com") {
+  /* rh2plusmanga.com */
   .c-top-second-sidebar.c-sidebar {
     padding-bottom: 0px !important;
     padding-top: 0px !important;
@@ -24,15 +26,17 @@
   }
 }
 
-/* sing-manga.com */
-@-moz-document domain("sing-manga.com") {
+@-moz-document
+domain("sing-manga.com") {
+  /* sing-manga.com */
   span.mobilelogo {
     margin-top: 0px !important;
   }
 }
 
-/* inu-manga.com */
-@-moz-document domain("inu-manga.com") {
+@-moz-document
+domain("inu-manga.com") {
+  /* inu-manga.com */
   div.fb-comments > span > iframe {
     background-color: white !important;
   }
@@ -41,16 +45,18 @@
   }
 }
 
-/* kingsmanga.net */
-@-moz-document domain("kingsmanga.net") {
+@-moz-document
+domain("kingsmanga.net") {
+  /* kingsmanga.net */
   .reader-content .post-content > img {
     width: 1000px !important;
     height: auto !important;
   }
 }
 
-/* nekopost.net */
-@-moz-document domain("nekopost.net") {
+@-moz-document
+domain("nekopost.net") {
+  /* nekopost.net */
   div.layout-helper.svelte-ixpqjn button {
     width: 35px !important;
     height: 35px !important;
@@ -65,13 +71,15 @@
 
 
 
-/* ------------------------ */
-/* ----- Other Styles ----- */
-/* ------------------------ */
+/*===============
+   Other Styles
+=================
+/**/
 
-/* readerarea width fit to screen */
-@-moz-document domain("manga168.com"),
+@-moz-document
+domain("manga168.com"),
 domain("weimanga.com") {
+  /* readerarea width fit to screen */
   div[id="readerarea"] > img.loaded:not([src$="/img/readerarea.svg"]) {
     width: 100% !important;
     height: auto !important;
