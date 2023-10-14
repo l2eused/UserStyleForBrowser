@@ -247,6 +247,7 @@
 ##[href*="pattayainterhospital.com"]
 ##[href*="network-health.org"]
 ##[href*="nexobeta.com"]
+##[href*="bit.ly/3ZqJjB8"]
 !
 !!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
