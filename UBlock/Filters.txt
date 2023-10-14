@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (l2eused)
 ! Expires: 6 hours
-! Version: 10.14.23.1
+! Version: 10.14.23.2
 ! Homepage: https://github.com/l2eused/UserStyleForBrowser
 ! Developer: l2eused
 ! Detail: work in progress....
@@ -120,6 +120,7 @@
 !
 !!filters (urls with)
 ##[href*="/baccarat/"]
+##[href*="/slot/"]
 
 ! generic cosmetic (strict domain)
 !
@@ -243,6 +244,9 @@
 ##[href*="kissmebet."]
 ##[href*="yedhere.com"]
 ##[href*="lionth.com"]
+##[href*="pattayainterhospital.com"]
+##[href*="network-health.org"]
+##[href*="nexobeta.com"]
 !
 !!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
