@@ -249,6 +249,15 @@
 ##[href*="nexobeta.com"]
 ##[href*="bit.ly/3ZqJjB8"]
 ##[href*="www.pkids.org"]
+##[href*="ufa77-nice"]
+##[href*="lcbet88."]
+##[href*="lcbetasia."]
+##[href*="bcr99th."]
+##[href*="lcbet168"]
+##[href*="bit.ly/3RY5Ocz"]
+##[href*="sexycasino."]
+##[href*="bit.ly/3sHnA99"]
+##[href*="168pretty."]
 !
 !!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
@@ -539,6 +548,8 @@ niceoppai.net###sct_footer_banner
 niceoppai.net##.widget_text.top_page
 niceoppai.net###text-90
 niceoppai.net###text-32
+! 2023-10-26
+niceoppai.net###text-6
 
 ! cartoonth12.com
 ! 2023-02-06
