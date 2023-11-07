@@ -2,86 +2,86 @@
 @name UserStyle Mobile (l2eused)
 @namespace github.com/l2eused/UserStyleForBrowser
 @homepageURL https://github.com/l2eused/UserStyleForBrowser
-@version 10.19.23.1
+@version 11.07.23.1
 @description work in progress....
 @author l2eused
 ==/UserStyle== */
 
 
 
-/*================
-  Custom Styles
-==================
+/*==================
+    Custom Styles
+====================
 /**/
 
 @-moz-document
 domain("rh2plusmanga.com") {
-  /* rh2plusmanga.com */
-  .c-top-second-sidebar.c-sidebar {
-    padding-bottom: 0px !important;
-    padding-top: 0px !important;
-  }
-  .widget_text.row div:has(iframe[src*="page.php"]) {
-    text-align: center !important;
-  }
+    /* rh2plusmanga.com */
+    .c-top-second-sidebar.c-sidebar {
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    .widget_text.row div:has(iframe[src*="page.php"]) {
+        text-align: center !important;
+    }
 }
 
 @-moz-document
 domain("sing-manga.com") {
-  /* sing-manga.com */
-  span.mobilelogo {
-    margin-top: 0px !important;
-  }
+    /* sing-manga.com */
+    span.mobilelogo {
+        margin-top: 0px !important;
+    }
 }
 
 @-moz-document
 domain("inu-manga.com") {
-  /* inu-manga.com */
-  div.fb-comments > span > iframe {
-    background-color: white !important;
-  }
-  div.fb-comments {
-    background: transparent !important;
-  }
+    /* inu-manga.com */
+    div.fb-comments > span > iframe {
+        background-color: white !important;
+   }
+    div.fb-comments {
+        background: transparent !important;
+    }
 }
 
 @-moz-document
 domain("kingsmanga.net") {
-  /* kingsmanga.net */
-  .reader-content .post-content > img {
-    width: 1000px !important;
-    height: auto !important;
-  }
+    /* kingsmanga.net */
+    .reader-content .post-content > img {
+        width: 1000px !important;
+        height: auto !important;
+    }
 }
 
 @-moz-document
 domain("nekopost.net") {
-  /* nekopost.net */
-  div.layout-helper.svelte-ixpqjn button {
-    width: 35px !important;
-    height: 35px !important;
-    padding: 0px !important;
-  }
-  div.chapter-content.svelte-ixpqjn div.t-center.item-content > p.text-page.text-center.svelte-ixpqjn {
-    margin-bottom: 10px !important;
-    font-size: 16px !important;
-    color: #9295A4 !important;
-  }
+    /* nekopost.net */
+    div.layout-helper.svelte-ixpqjn button {
+        width: 35px !important;
+        height: 35px !important;
+        padding: 0px !important;
+    }
+    div.chapter-content.svelte-ixpqjn div.t-center.item-content > p.text-page.text-center.svelte-ixpqjn {
+        margin-bottom: 10px !important;
+        font-size: 16px !important;
+        color: #9295A4 !important;
+    }
 }
 
 
 
-/*===============
-  Other Styles
-=================
+/*=================
+    Other Styles
+===================
 /**/
 
 @-moz-document
 domain("manga168.com"),
 domain("weimanga.com") {
-  /* readerarea width fit to screen */
-  div[id="readerarea"] > img.loaded:not([src$="/img/readerarea.svg"]) {
-    width: 100% !important;
-    height: auto !important;
-  }
+    /* readerarea width fit to screen */
+    div[id="readerarea"] > img.loaded:not([src$="/img/readerarea.svg"]) {
+        width: 100% !important;
+        height: auto !important;
+    }
 }
