@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (l2eused)
 ! Expires: 6 hours
-! Version: 10.27.23.1
+! Version: 11.07.23.1
 ! Homepage: https://github.com/l2eused/UserStyleForBrowser
 ! Developer: l2eused
 ! Detail: work in progress....
 
 
 
-!====================
-! General Ads Banner
-!====================
+!=======================
+!   General Ads Banner
+!=======================
 
 ! generic cosmetic
 !
@@ -407,9 +407,9 @@
 
 
 
-!=================
-! Custom Filters
-!=================
+!===================
+!   Custom Filters
+!===================
 
 ! newtoki / manatoki
 ! 2023-03-11
@@ -691,9 +691,9 @@ novel-lucky.com##.floating_content_close_button
 
 
 
-!========================
-! Mobile Custom Filters
-!========================
+!===========================
+!   Mobile Custom Filters
+!===========================
 
 ! enable if mobile
 !#if env_mobile
@@ -716,9 +716,9 @@ mangathailand.com##.e-con-inner
 
 
 
-!================
-! Other Filters
-!================
+!===================
+!   Other Filters
+!===================
 
 ! social share button
 ~facebook.*##[href*="facebook.com/sharer"]
@@ -745,15 +745,15 @@ manga168.com#@#center > a[target="_blank"] > img
 
 
 
-!==============
-! Non Filters
-!==============
+!=================
+!   Non Filters
+!=================
 
 
 
-!======================
-! AdsBlock (Noname)
-!----------------------
-! stay safe.
-! together forever 💙
-!======================
+!========================
+!   AdsBlock (Noname)
+!------------------------
+!   stay safe.
+!   together forever 💙
+!========================
