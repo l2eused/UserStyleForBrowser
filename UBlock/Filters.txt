@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (l2eused)
 ! Expires: 6 hours
-! Version: 11.16.23.1
+! Version: 11.17.23.1
 ! Homepage: https://github.com/l2eused/UserStyleForBrowser
 ! Developer: l2eused
 ! Detail: work in progress....
@@ -259,6 +259,10 @@
 ##[href*="bit.ly/3sHnA99"]
 ##[href*="168pretty."]
 ##[href*="engaugeinc.net"]
+##[href*="getmango.app"]
+##[href*="royalprojectthailand.com"]
+##[href*="bcr777.com"]
+##[href*="tcsoinfo.com"]
 !
 !!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
@@ -553,6 +557,8 @@ niceoppai.net###text-90
 niceoppai.net###text-32
 ! 2023-10-26
 niceoppai.net###text-6
+! 2023-11-12
+niceoppai.net##.mng_rdr.wpm_pag > .fb-comment-box
 
 ! cartoonth12.com
 ! 2023-02-06
