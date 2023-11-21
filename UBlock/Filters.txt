@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (l2eused)
 ! Expires: 6 hours
-! Version: 11.22.23.2
+! Version: 11.22.23.3
 ! Homepage: https://github.com/l2eused/UserStyleForBrowser
 ! Developer: l2eused
 ! Detail: work in progress....
@@ -263,10 +263,15 @@
 ##[href*="royalprojectthailand.com"]
 ##[href*="bcr777.com"]
 ##[href*="tcsoinfo.com"]
+##[href*="javhdguru."]
 !
 !!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
 ##[href*="xn----5wf5bcv9cqk6a5a4r7ch"]
+##[href*="ซีรี่ย์เกาหลี"]
+##[href*="xn--12ct3edm9aycubf0j2d7b"]
+##[href*="ซีรี่ย์จีน168."]
+##[href*="xn--168-5klo9fvch5nbc9t0b"]
 
 ! self exclude (useful site maybe?)
 !
@@ -539,6 +544,12 @@ toonhunter.com##.text-center.th-ban
 kumomanga.com##.wbnn-close
 ! 2023-03-26
 kumomanga.net###wbnn
+
+! mangathailand.com
+! 2023-11-21
+mangathailand.com##.e-parent.e-con.e-con-boxed.e-flex.elementor-element-ad250fa.elementor-element
+mangathailand.com##.e-parent.e-con.e-con-boxed.e-flex.elementor-element-74b11bd.elementor-element
+mangathailand.com###ads-sticky-b
 
 ! mangadeemak.com
 ! 2022-12-21
