@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (l2eused)
 ! Expires: 6 hours
-! Version: 11.22.23.1
+! Version: 11.22.23.2
 ! Homepage: https://github.com/l2eused/UserStyleForBrowser
 ! Developer: l2eused
 ! Detail: work in progress....
@@ -711,12 +711,6 @@ manga168.com,murim-manga.com,makimaaaaa.com,toomtam-manga.com,ped-manga.com,spy-
 ! sing-manga.com
 ! 2023-02-28
 sing-manga.com###menu-main.menu > li:has([class*="sub-menu"])
-
-! mangathailand.com
-! 2023-05-26
-mangathailand.com##.elementor-location-footer.elementor-1940.elementor
-mangathailand.com##.elementor-sticky.elementor-section-height-default.elementor-section-boxed.elementor-element-7f5e326.elementor-element.elementor-top-section.elementor-section
-mangathailand.com##.e-con-inner
 
 ! ending if mobile
 !#endif
