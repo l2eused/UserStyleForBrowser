@@ -547,8 +547,7 @@ kumomanga.net###wbnn
 
 ! mangathailand.com
 ! 2023-11-21
-mangathailand.com##.e-parent.e-con.e-con-boxed.e-flex.elementor-element-ad250fa.elementor-element
-mangathailand.com##.e-parent.e-con.e-con-boxed.e-flex.elementor-element-74b11bd.elementor-element
+mangathailand.com##.e-parent.e-con.e-con-boxed.e-flex.elementor-element
 mangathailand.com###ads-sticky-b
 
 ! mangadeemak.com
