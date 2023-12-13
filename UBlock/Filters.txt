@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (l2eused)
 ! Expires: 6 hours
-! Version: 11.26.23.1
+! Version: 12.13.23.1
 ! Homepage: https://github.com/l2eused/UserStyleForBrowser
 ! Developer: l2eused
 ! Detail: work in progress....
@@ -553,6 +553,14 @@ mangathailand.com##.e-parent.e-con.e-con-boxed.e-flex.elementor-element-74b11bd.
 mangathailand.com###ads-sticky-b
 ! 2023-11-24
 mangathailand.com##.e-parent.e-con.e-con-boxed.e-flex.elementor-element-f45fbb6.elementor-element
+! 2023-11-23
+mangathailand.com##.elementor-section--handles-inside.elementor-sticky--active.elementor-sticky--effects.elementor-sticky.elementor-section-height-default.elementor-section-boxed.elementor-element-7f5e326.elementor-element.elementor-top-section.elementor-section
+mangathailand.com##.elementor-location-footer.elementor-1940.elementor
+! 2023-11-25
+mangathailand.com##.elementor-widget-html.elementor-widget.elementor-widget__width-inherit.elementor-element-a2e1b86.elementor-element
+mangathailand.com##.e-child.e-con.e-con-boxed.e-grid.elementor-element-7f6bed6.elementor-element
+! 2023-12-02
+mangathailand.com##.e-child.e-con.e-flex.e-con-full.nav-normal.elementor-element-4b2c543.elementor-element:style(margin-bottom: 500px !important;)
 
 ! mangadeemak.com
 ! 2022-12-21
