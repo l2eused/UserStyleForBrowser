@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (l2eused)
 ! Expires: 6 hours
-! Version: 12.13.23.1
+! Version: 12.23.23.1
 ! Homepage: https://github.com/l2eused/UserStyleForBrowser
 ! Developer: l2eused
 ! Detail: work in progress....
@@ -274,7 +274,6 @@
 ##[href*="bit.ly/4ak7OVI"]
 ##[href*="bit.ly/48jcY2l"]
 ##[href*="techbenzy.com"]
-##[href*=""]
 !
 !!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
