@@ -265,14 +265,26 @@
 ##[href*="siamxxx"]
 ##[href*="tcsoinfo.com"]
 ##[href*="javhdguru."]
+##[href*="lalikabet168"]
+##[href*="shopgreyarea.necromanga"]
+##[href*="dk764.com"]
+##[href*="godbet1688"]
+##[href*="bit.ly/slot-auto-th"]
+##[href*="bit.ly/Pgslot-to"]
+##[href*="bit.ly/4ak7OVI"]
+##[href*="bit.ly/48jcY2l"]
+##[href*="techbenzy.com"]
+##[href*=""]
 !
 !!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
 ##[href*="xn----5wf5bcv9cqk6a5a4r7ch"]
 ##[href*="ซีรี่ย์เกาหลี"]
 ##[href*="xn--12ct3edm9aycubf0j2d7b"]
-##[href*="ซีรี่ย์จีน168."]
+##[href*="ซีรี่ย์จีน168"]
 ##[href*="xn--168-5klo9fvch5nbc9t0b"]
+##[href*="แทงหวย24"]
+##[href*="xn--24-3qi4duc3a1a7owd"]
 
 ! self exclude (useful site maybe?)
 !
