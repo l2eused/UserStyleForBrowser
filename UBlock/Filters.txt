@@ -274,7 +274,7 @@
 ##[href*="bit.ly/4ak7OVI"]
 ##[href*="bit.ly/48jcY2l"]
 ##[href*="techbenzy.com"]
-##[href*+"bit.ly/4afkUUc"]
+##[href*="bit.ly/4afkUUc"]
 !
 !!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
@@ -654,6 +654,7 @@ miku-doujin.com##.card-body > .mb-3.text-center
 ! 2023-11-12
 miku-doujin.com##div.inz-col.mb-3.col-md-3.col-sm-4.col-6:has([href*="miku-doujin.com/uncensored1"])
 miku-doujin.com##div.inz-col.mb-3.col-md-3.col-sm-4.col-6:has([href*="miku-doujin.com/satsuki-nanao"])
+miku-doujin.com##div.inz-col.mb-3.col-md-3.col-sm-4.col-6:has([href*="miku-doujin.com/shoko-takahashi"])
 
 ! ntr-manga.com
 ! 2022-11-30
