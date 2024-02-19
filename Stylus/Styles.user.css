@@ -2,11 +2,13 @@
 @name UserStyle (l2eused)
 @namespace github.com/l2eused/UserStyleForBrowser
 @homepageURL https://github.com/l2eused/UserStyleForBrowser
-@version 24.02.19.1
+@version 24.02.19.2
 @description work in progress....
 @author l2eused
 
-@prepocessor stylus
+@preprocessor stylus
+
+@var checkbox long-strip-on "Long Strip Mode" 0
 ==/UserStyle== */
 
 
@@ -115,5 +117,37 @@ domain("toonhunter.com") {
 domain("xn--l3c0azab5a2gta.com") {
     .menu [href] > span {
         color: lavender;
+    }
+}
+
+
+
+/*================
+    Var Settings
+==================
+/**/
+
+/* long strip mode */
+@-moz-document domain("nekopost.net") {
+    if long-strip-on {
+        div.mb-10:not(:last-of-type) {
+            margin: 0;
+        }
+        div.mb-10 > .svelte-s3v0mx {
+            margin: 0;
+        }
+        
+        /* hide page number */
+        div.mb-10 > .text-2xl {
+            display: none;
+        }
+        
+        /* remove border between page */
+        div.mb-10:not(:nth-of-type(2)) > .svelte-s3v0mx img {
+            border-top: 0 !important;
+        }
+        div.mb-10:not(:last-of-type) > .svelte-s3v0mx img {
+            border-bottom: 0 !important;
+        }
     }
 }
