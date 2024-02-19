@@ -2,9 +2,12 @@
 @name UserStyle Mobile (l2eused)
 @namespace github.com/l2eused/UserStyleForBrowser
 @homepageURL https://github.com/l2eused/UserStyleForBrowser
-@version 24.02.19.1
+@version 24.02.19.2
 @description work in progress....
 @author l2eused
+
+@preprocessor stylus
+
 ==/UserStyle== */
 
 
