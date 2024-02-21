@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (l2eused)
 ! Expires: 6 hours
-! Version: 24.02.19.1
+! Version: 24.02.21.1
 ! Homepage: https://github.com/l2eused/UserStyleForBrowser
 ! Developer: l2eused
 ! Detail: work in progress....
@@ -656,6 +656,7 @@ miku-doujin.com##.card-body > .mb-3.text-center
 miku-doujin.com##div.inz-col.mb-3.col-md-3.col-sm-4.col-6:has([href*="miku-doujin.com/uncensored1"])
 miku-doujin.com##div.inz-col.mb-3.col-md-3.col-sm-4.col-6:has([href*="miku-doujin.com/satsuki-nanao"])
 miku-doujin.com##div.inz-col.mb-3.col-md-3.col-sm-4.col-6:has([href*="miku-doujin.com/shoko-takahashi"])
+miku-doujin.com##div.inz-col.mb-3.col-md-3.col-sm-4.col-6:has([href*="miku-doujin.com/sakura-miura"])
 
 ! ntr-manga.com
 ! 2022-11-30
