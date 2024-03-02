@@ -2,7 +2,7 @@
 @name UserStyle (l2eused)
 @namespace github.com/l2eused/UserStyleForBrowser
 @homepageURL https://github.com/l2eused/UserStyleForBrowser
-@version 24.02.19.3
+@version 24.03.02.1
 @description work in progress....
 @author l2eused
 
@@ -33,6 +33,15 @@
     }
     .inepcx a[href] span {
         color: rgb(22, 21, 29) !important;
+    }
+}
+/* fix image in readerarea */
+@-moz-document domain("inu-manga.com") {
+    #readerarea > div.displayImage:has(div[style*="top:nullpx;"],div[style*="left:nullpx;"]) {
+        display: unset !important;
+    }
+    #readerarea > div.displayImage:has(div[style*="top:nullpx;"],div[style*="left:nullpx;"]) div {
+        display: none;
     }
 }
 
