@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: AdsBlock (l2eused)
 ! Expires: 6 hours
-! Version: 24.03.11.1
+! Version: 24.03.11.2
 ! Homepage: https://github.com/l2eused/UserStyleForBrowser
 ! Developer: l2eused
 ! Detail: work in progress....
@@ -15,112 +15,112 @@
 ! generic cosmetic
 !
 !!filters (domain with)
-##[href*="https://www.ufa"]
-##[href*="http://www.ufa"]
-##[href*="https://ufa"]
-##[href*="http://ufa"]
-##[href*="www.ufa"]
-##[href*="https://www.lotto"]
-##[href*="http://www.lotto"]
-##[href*="https://lotto"]
-##[href*="http://lotto"]
-##[href*="www.lotto"]
-##[href*="https://www.ssgame"]
-##[href*="http://www.ssgame"]
-##[href*="https://ssgame"]
-##[href*="http://ssgame"]
-##[href*="www.ssgame"]
-##[href*="https://www.sagame"]
-##[href*="http://www.sagame"]
-##[href*="https://sagame"]
-##[href*="http://sagame"]
-##[href*="www.sagame"]
-##[href*="https://www.sexygame"]
-##[href*="http://www.sexygame"]
-##[href*="https://sexygame"]
-##[href*="http://sexygame"]
-##[href*="www.sexygame"]
-##[href*="https://www.slot"]
-##[href*="http://www.slot"]
-##[href*="https://slot"]
-##[href*="http://slot"]
-##[href*="www.slot"]
-##[href*="https://www.casino"]
-##[href*="http://www.casino"]
-##[href*="https://casino"]
-##[href*="http://casino"]
-##[href*="www.casino"]
-##[href*="https://www.hotgraph"]
-##[href*="http://www.hotgraph"]
-##[href*="https://hotgraph"]
-##[href*="http://hotgraph"]
-##[href*="www.hotgraph"]
-##[href*="https://www.baccara"]
-##[href*="http://www.baccara"]
-##[href*="https://baccara"]
-##[href*="http://baccara"]
-##[href*="www.baccara"]
-##[href*="https://www.huay"]
-##[href*="http://www.huay"]
-##[href*="https://huay"]
-##[href*="http://huay"]
-##[href*="www.huay"]
-##[href*="https://www.nowbet"]
-##[href*="http://www.nowbet"]
-##[href*="https://nowbet"]
-##[href*="http://nowbet"]
-##[href*="www.nowbet"]
-##[href*="https://www.lucaclub"]
-##[href*="http://www.lucaclub"]
-##[href*="https://lucaclub"]
-##[href*="http://lucaclub"]
-##[href*="www.lucaclub"]
-##[href*="https://www.nowbet"]
-##[href*="http://www.nowbet"]
-##[href*="https://nowbet"]
-##[href*="http://nowbet"]
-##[href*="www.nowbet"]
-##[href*="https://www.betflix"]
-##[href*="http://www.betflix"]
-##[href*="https://betflix"]
-##[href*="http://betflix"]
-##[href*="www.betflix"]
-##[href*="https://www.betflik"]
-##[href*="http://www.betflik"]
-##[href*="https://betflik"]
-##[href*="http://betflik"]
-##[href*="www.betflik"]
-##[href*="https://www.seolrea"]
-##[href*="http://www.seolrea"]
-##[href*="https://seolrea"]
-##[href*="http://seolrea"]
-##[href*="www.seolrea"]
-##[href*="https://www.bacarat"]
-##[href*="http://www.bacarat"]
-##[href*="https://bacarat"]
-##[href*="http://bacarat"]
-##[href*="www.bacarat"]
-##[href*="https://www.pgslot"]
-##[href*="http://www.pgslot"]
-##[href*="https://pgslot"]
-##[href*="http://pgslot"]
-##[href*="www.pgslot"]
+##[href*="https://www.ufa"] > img
+##[href*="http://www.ufa"] > img
+##[href*="https://ufa"] > img
+##[href*="http://ufa"] > img
+##[href*="www.ufa"] > img
+##[href*="https://www.lotto"] > img
+##[href*="http://www.lotto"] > img
+##[href*="https://lotto"] > img
+##[href*="http://lotto"] > img
+##[href*="www.lotto"] > img
+##[href*="https://www.ssgame"] > img
+##[href*="http://www.ssgame"] > img
+##[href*="https://ssgame"] > img
+##[href*="http://ssgame"] > img
+##[href*="www.ssgame"] > img
+##[href*="https://www.sagame"] > img
+##[href*="http://www.sagame"] > img
+##[href*="https://sagame"] > img
+##[href*="http://sagame"] > img
+##[href*="www.sagame"] > img
+##[href*="https://www.sexygame"] > img
+##[href*="http://www.sexygame"] > img
+##[href*="https://sexygame"] > img
+##[href*="http://sexygame"] > img
+##[href*="www.sexygame"] > img
+##[href*="https://www.slot"] > img
+##[href*="http://www.slot"] > img
+##[href*="https://slot"] > img
+##[href*="http://slot"] > img
+##[href*="www.slot"] > img
+##[href*="https://www.casino"] > img
+##[href*="http://www.casino"] > img
+##[href*="https://casino"] > img
+##[href*="http://casino"] > img
+##[href*="www.casino"] > img
+##[href*="https://www.hotgraph"] > img
+##[href*="http://www.hotgraph"] > img
+##[href*="https://hotgraph"] > img
+##[href*="http://hotgraph"] > img
+##[href*="www.hotgraph"] > img
+##[href*="https://www.baccara"] > img
+##[href*="http://www.baccara"] > img
+##[href*="https://baccara"] > img
+##[href*="http://baccara"] > img
+##[href*="www.baccara"] > img
+##[href*="https://www.huay"] > img
+##[href*="http://www.huay"] > img
+##[href*="https://huay"] > img
+##[href*="http://huay"] > img
+##[href*="www.huay"] > img
+##[href*="https://www.nowbet"] > img
+##[href*="http://www.nowbet"] > img
+##[href*="https://nowbet"] > img
+##[href*="http://nowbet"] > img
+##[href*="www.nowbet"] > img
+##[href*="https://www.lucaclub"] > img
+##[href*="http://www.lucaclub"] > img
+##[href*="https://lucaclub"] > img
+##[href*="http://lucaclub"] > img
+##[href*="www.lucaclub"] > img
+##[href*="https://www.nowbet"] > img
+##[href*="http://www.nowbet"] > img
+##[href*="https://nowbet"] > img
+##[href*="http://nowbet"] > img
+##[href*="www.nowbet"] > img
+##[href*="https://www.betflix"] > img
+##[href*="http://www.betflix"] > img
+##[href*="https://betflix"] > img
+##[href*="http://betflix"] > img
+##[href*="www.betflix"] > img
+##[href*="https://www.betflik"] > img
+##[href*="http://www.betflik"] > img
+##[href*="https://betflik"] > img
+##[href*="http://betflik"] > img
+##[href*="www.betflik"] > img
+##[href*="https://www.seolrea"] > img
+##[href*="http://www.seolrea"] > img
+##[href*="https://seolrea"] > img
+##[href*="http://seolrea"] > img
+##[href*="www.seolrea"] > img
+##[href*="https://www.bacarat"] > img
+##[href*="http://www.bacarat"] > img
+##[href*="https://bacarat"] > img
+##[href*="http://bacarat"] > img
+##[href*="www.bacarat"] > img
+##[href*="https://www.pgslot"] > img
+##[href*="http://www.pgslot"] > img
+##[href*="https://pgslot"] > img
+##[href*="http://pgslot"] > img
+##[href*="www.pgslot"] > img
 !
 !!filters (end with)
-##[href$=".bet"]
-##[href$=".bet/"]
-##[href$=".game"]
-##[href$=".game/"]
-##[href$=".vip"]
-##[href$=".vip/"]
-##[href$=".casino"]
-##[href$=".casino/"]
-##[href$="/1slot/index.html"]
-##[href$="/1slot/index.html/"]
+##[href$=".bet"] > img
+##[href$=".bet/"] > img
+##[href$=".game"] > img
+##[href$=".game/"] > img
+##[href$=".vip"] > img
+##[href$=".vip/"] > img
+##[href$=".casino"] > img
+##[href$=".casino/"] > img
+##[href$="/1slot/index.html"] > img
+##[href$="/1slot/index.html/"] > img
 !
 !!filters (urls with)
-##[href*="/baccarat/"]
-##[href*="/slot/"]
+##[href*="/baccarat/"] > img
+##[href*="/slot/"] > img
 
 ! generic cosmetic (strict domain)
 !
@@ -286,6 +286,11 @@
 ##[href*="glorycycles."]
 ##[href*="ballsnbands."]
 ##[href*="clinicasderecuperacao."]
+##[href*="nudge4.org"]
+##[href*="bit.ly/3vVcrWH"]
+##[href*="topfuelsaloon."]
+##[href*="365kub.app/register"]
+##[href*="ambslot44."]
 !
 !!filters (with IDN (punycode))
 ##[href*="เว็บตรง-สล็อต"]
